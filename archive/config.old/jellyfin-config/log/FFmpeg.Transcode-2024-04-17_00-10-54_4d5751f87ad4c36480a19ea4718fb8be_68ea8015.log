@@ -1,0 +1,117 @@
+/videos/4d5751f8-7ad4-c364-80a1-9ea4718fb8be/hls1/main/0.ts
+
+{"Protocol":0,"Id":"4d5751f87ad4c36480a19ea4718fb8be","Path":"/data/tv/Resident Alien/Season 2/Resident.Alien.S02E01.Old.Friends.EAC3.5.1.1080p.Bluray.x265-iVy.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":864893056,"Name":"Resident.Alien.S02E01.Old.Friends.EAC3.5.1.1080p.Bluray.x265-iVy","IsRemote":false,"ETag":"785f4c977cf8096008f408bd895990de","RunTimeTicks":27721449472,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"hevc","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":"bt709","ColorTransfer":"bt709","ColorPrimaries":"bt709","DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"1080p HEVC SDR","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":2495953,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":1080,"Width":1920,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"Main","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":120,"IsAnamorphic":null},{"Codec":"eac3","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"English - Dolby Digital\u002B - 5.1 - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"5.1","BitRate":640000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"PGSSUB","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"English PGS SDH","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"English PGS SDH - PGSSUB","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"ass","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"English Text","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"English Text - ASS","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":3,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"ass","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"English Text SDH","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"English Text SDH - ASS","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":4,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":3135953,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -f matroska,webm -autorotate 0 -i file:"/data/tv/Resident Alien/Season 2/Resident.Alien.S02E01.Old.Friends.EAC3.5.1.1080p.Bluray.x265-iVy.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -preset veryfast -crf 23 -maxrate 8319843 -bufsize 16639686 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -force_key_frames:0 "expr:gte(t,0+n_forced*3)" -sc_threshold:v:0 0 -vf "setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709,scale=trunc(min(max(iw\,ih*a)\,min(1920\,1080*a))/2)*2:trunc(min(max(iw/a\,ih)\,min(1920/a\,1080))/2)*2,format=yuv420p" -codec:a:0 libfdk_aac -ac 2 -ab 384000 -af "volume=2" -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 3 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/5649425cf0d522a564d3754a5926e5c1%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/5649425cf0d522a564d3754a5926e5c1.m3u8"
+
+
+ffmpeg version 5.1.4-Jellyfin Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libsvtav1 --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-opencl --enable-vaapi --enable-amf --enable-libmfx --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, matroska,webm, from 'file:/data/tv/Resident Alien/Season 2/Resident.Alien.S02E01.Old.Friends.EAC3.5.1.1080p.Bluray.x265-iVy.mkv':
+  Metadata:
+    creation_time   : 2024-01-20T10:14:19.000000Z
+    ENCODER         : Lavf59.27.100
+  Duration: 00:46:12.15, start: 0.000000, bitrate: 2495 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 38.080000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 38.080000, end 715.298000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 715.298000, end 1092.550000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1092.550000, end 1579.036000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 1579.036000, end 1836.126000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 1836.126000, end 2369.701000
+      Metadata:
+        title           : Chapter 6
+    Chapter #0:6: start 2369.701000, end 2748.913000
+      Metadata:
+        title           : Chapter 7
+    Chapter #0:7: start 2748.913000, end 2772.103000
+      Metadata:
+        title           : Chapter 8
+  Stream #0:0: Video: hevc (Main), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      DURATION        : 00:46:12.145000000
+  Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+    Metadata:
+      DURATION        : 00:46:12.068000000
+  Stream #0:2(eng): Subtitle: hdmv_pgs_subtitle, 1920x1080
+    Metadata:
+      title           : English PGS SDH
+      DURATION        : 00:46:03.511000000
+  Stream #0:3(eng): Subtitle: ass
+    Metadata:
+      title           : English Text
+      DURATION        : 00:46:03.511000000
+  Stream #0:4(eng): Subtitle: ass
+    Metadata:
+      title           : English Text SDH
+      DURATION        : 00:46:03.511000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (eac3 (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+[libx264 @ 0x560f467a9080] using SAR=1/1
+[libx264 @ 0x560f467a9080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x560f467a9080] profile Main, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x560f467a9080] 264 - core 163 r3060 5db6aa6 - H.264/MPEG-4 AVC codec - Copyleft 2003-2021 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x1:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=4 chroma_me=0 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=23 scenecut=0 intra_refresh=0 rc_lookahead=10 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 vbv_maxrate=8319 vbv_bufsize=16639 crf_max=0.0 nal_hrd=none filler=0 ip_ratio=1.40 aq=1:1.00
+Output #0, hls, to '/config/data/transcodes/5649425cf0d522a564d3754a5926e5c1.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 23.98 fps, 90k tbn (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 8319000/0/0 buffer size: 16639000 vbv_delay: N/A
+  Stream #0:1: Audio: aac, 48000 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libfdk_aac
+frame=    1 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+frame=   22 fps=0.0 q=0.0 size=N/A time=00:00:00.89 bitrate=N/A speed=1.41x    
+frame=   42 fps= 36 q=28.0 size=N/A time=00:00:01.72 bitrate=N/A speed=1.49x    
+frame=   66 fps= 39 q=28.0 size=N/A time=00:00:02.75 bitrate=N/A speed=1.65x    
+frame=   83 fps= 37 q=28.0 size=N/A time=00:00:03.45 bitrate=N/A speed=1.55x    
+frame=   96 fps= 35 q=28.0 size=N/A time=00:00:03.98 bitrate=N/A speed=1.46x    
+[hls @ 0x560f467aa9c0] Opening '/config/data/transcodes/5649425cf0d522a564d3754a5926e5c10.ts' for writing
+frame=  106 fps= 33 q=28.0 size=N/A time=00:00:04.41 bitrate=N/A speed=1.36x    
+frame=  120 fps= 32 q=28.0 size=N/A time=00:00:04.99 bitrate=N/A speed=1.33x    
+frame=  141 fps= 33 q=28.0 size=N/A time=00:00:05.84 bitrate=N/A speed=1.37x    
+frame=  160 fps= 34 q=25.0 size=N/A time=00:00:06.65 bitrate=N/A speed=1.39x    
+[hls @ 0x560f467aa9c0] Opening '/config/data/transcodes/5649425cf0d522a564d3754a5926e5c11.ts' for writing
+frame=  180 fps= 34 q=28.0 size=N/A time=00:00:07.48 bitrate=N/A speed= 1.4x    
+
+[q] command received. Exiting.
+
+[hls @ 0x560f467aa9c0] Opening '/config/data/transcodes/5649425cf0d522a564d3754a5926e5c12.ts' for writing
+frame=  185 fps= 30 q=-1.0 Lsize=N/A time=00:00:07.72 bitrate=N/A speed=1.24x    
+video:2080kB audio:377kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[libx264 @ 0x560f467a9080] frame I:3     Avg QP:14.07  size: 52673
+[libx264 @ 0x560f467a9080] frame P:60    Avg QP:18.72  size: 23816
+[libx264 @ 0x560f467a9080] frame B:122   Avg QP:19.93  size:  4447
+[libx264 @ 0x560f467a9080] consecutive B-frames:  7.6% 11.9%  4.9% 75.7%
+[libx264 @ 0x560f467a9080] mb I  I16..4: 62.2%  0.0% 37.8%
+[libx264 @ 0x560f467a9080] mb P  I16..4: 38.0%  0.0%  0.0%  P16..4: 23.8%  0.0%  0.0%  0.0%  0.0%    skip:38.3%
+[libx264 @ 0x560f467a9080] mb B  I16..4:  3.5%  0.0%  0.0%  B16..8: 11.4%  0.0%  0.0%  direct: 3.9%  skip:81.3%  L0:39.8% L1:52.7% BI: 7.5%
+[libx264 @ 0x560f467a9080] coded y,uvDC,uvAC intra: 15.6% 34.6% 6.6% inter: 3.8% 8.0% 0.2%
+[libx264 @ 0x560f467a9080] i16 v,h,dc,p: 39% 25% 14% 22%
+[libx264 @ 0x560f467a9080] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 23% 14%  9%  7%  5%  5%  5%  5%
+[libx264 @ 0x560f467a9080] i8c dc,h,v,p: 50% 21% 21%  8%
+[libx264 @ 0x560f467a9080] Weighted P-Frames: Y:13.3% UV:10.0%
+[libx264 @ 0x560f467a9080] kb/s:2207.95

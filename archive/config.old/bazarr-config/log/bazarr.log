@@ -1,0 +1,7 @@
+2024-04-19 00:25:21|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+2024-04-19 00:30:48|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+2024-04-19 01:23:14|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-04-19 01:23:14|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+2024-04-19 01:23:14|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+2024-04-19 01:23:14|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+2024-04-19 01:23:14|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|

@@ -1,0 +1,155 @@
+---
+client: Jellyfin for Android TV
+client_version: 0.16.7
+client_repository: https://github.com/jellyfin/jellyfin-androidtv
+type: crash_report
+format: markdown
+---
+### Logs
+
+***Stack Trace***: 
+```log
+java.lang.IllegalArgumentException: Invalid UUID string: null
+	at java.util.UUID.fromString(UUID.java:194)
+	at org.jellyfin.sdk.model.serializer.UUIDSerializerKt.toUUID(UUIDSerializer.kt:13)
+	at org.jellyfin.androidtv.ui.itemhandling.BaseRowItem$refresh$1.invokeSuspend(BaseRowItem.kt:347)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@9e1e9c5, Dispatchers.IO]
+
+```  
+***Logcat***: 
+```log
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at android.os.Handler.handleCallback(Handler.java:873)
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at android.os.Looper.loop(Looper.java:193)
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at java.lang.reflect.Method.invoke(Native Method)
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-03 14:37:14.894 E/AndroidRuntime(23770): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-03 14:37:14.895 E/ACRA    (23770): ACRA caught a NullPointerException for org.jellyfin.androidtv
+04-03 14:37:14.895 E/ACRA    (23770): java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.UUID org.jellyfin.sdk.model.api.BaseItemDto.getParentThumbItemId()' on a null object reference
+04-03 14:37:14.895 E/ACRA    (23770): 	at org.jellyfin.androidtv.util.ImageUtils.getImageAspectRatio(ImageUtils.java:39)
+04-03 14:37:14.895 E/ACRA    (23770): 	at org.jellyfin.androidtv.ui.presentation.CardPresenter$ViewHolder.setItem(CardPresenter.java:112)
+04-03 14:37:14.895 E/ACRA    (23770): 	at org.jellyfin.androidtv.ui.presentation.CardPresenter.onBindViewHolder(CardPresenter.java:368)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.Presenter.onBindViewHolder(Presenter.java:140)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.ItemBridgeAdapter.onBindViewHolder(ItemBridgeAdapter.java:422)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(RecyclerView.java:7847)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(RecyclerView.java:6646)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(RecyclerView.java:6917)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6757)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:6753)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager.measureScrapChild(GridLayoutManager.java:1318)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager.processRowSizeSecondary(GridLayoutManager.java:1402)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager.onMeasure(GridLayoutManager.java:1508)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView.onMeasure(RecyclerView.java:4078)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.measure(View.java:23169)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6749)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1535)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:825)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:704)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.measure(View.java:23169)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6749)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1535)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:825)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:704)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.measure(View.java:23169)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager.measureChild(GridLayoutManager.java:1600)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager$2.createItem(GridLayoutManager.java:1702)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.SingleRow.appendVisibleItems(SingleRow.java:113)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.Grid.appendOneColumnVisibleItems(Grid.java:389)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager.appendOneColumnVisibleItems(GridLayoutManager.java:1870)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.leanback.widget.GridLayoutManager.onLayoutChildren(GridLayoutManager.java:2303)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:4645)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView.dispatchLayout(RecyclerView.java:4348)
+04-03 14:37:14.895 E/ACRA    (23770): 	at androidx.recyclerview.widget.RecyclerView.onLayout(RecyclerView.java:4919)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1812)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1656)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1565)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1812)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1656)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1565)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1083)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1812)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1656)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1565)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.FrameLayout.layoutChildren(FrameLayout.java:323)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.widget.FrameLayout.onLayout(FrameLayout.java:261)
+04-03 14:37:14.895 E/ACRA    (23770): 	at com.android.internal.policy.DecorView.onLayout(DecorView.java:753)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.View.layout(View.java:20672)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewGroup.layout(ViewGroup.java:6194)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2797)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2314)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1461)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:7187)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:949)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.Choreographer.doCallbacks(Choreographer.java:761)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.Choreographer.doFrame(Choreographer.java:696)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:935)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.os.Handler.handleCallback(Handler.java:873)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.os.Looper.loop(Looper.java:193)
+04-03 14:37:14.895 E/ACRA    (23770): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-03 14:37:14.895 E/ACRA    (23770): 	at java.lang.reflect.Method.invoke(Native Method)
+04-03 14:37:14.895 E/ACRA    (23770): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-03 14:37:14.895 E/ACRA    (23770): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-03 14:37:14.895 D/ACRA    (23770): Building report
+04-03 14:37:14.896 D/ACRA    (23770): Starting collectors with priority FIRST
+04-03 14:37:14.902 D/ACRA    (23770): Calling collector org.acra.collector.DropBoxCollector
+04-03 14:37:14.902 D/ACRA    (23770): Calling collector org.acra.collector.LogCatCollector
+04-03 14:37:14.902 D/ACRA    (23770): Collector org.acra.collector.DropBoxCollector completed
+04-03 14:37:14.903 D/ACRA    (23770): Calling collector org.acra.collector.StacktraceCollector
+04-03 14:37:14.904 D/ACRA    (23770): Collector org.acra.collector.StacktraceCollector completed
+04-03 14:37:14.908 D/ACRA    (23770): Retrieving logcat output (buffer:default)...
+
+```  
+
+### App information
+
+***App version***: `0.16.7` (`160799`)  
+***Package name***: `org.jellyfin.androidtv`  
+***Build***: 
+```json
+{"BOARD":"gangnam","BOOTLOADER":"123456789","BRAND":"SHARP","CPU_ABI":"armeabi-v7a","CPU_ABI2":"armeabi","DEVICE":"gangnam","DISPLAY":"PTM5.200218.931","FINGERPRINT":"SHARP\/tclilux\/gangnam:9\/PTM5.200218.931\/8830006:user\/release-keys","HARDWARE":"m7322","HOST":"abfarm-64-central-00241","ID":"PTM5.200218.931","IS_DEBUGGABLE":false,"IS_EMULATOR":false,"MANUFACTURER":"SHARP","MODEL":"AQUOS-TVX19B","PERMISSIONS_REVIEW_REQUIRED":false,"PRODUCT":"tclilux","RADIO":"unknown","SUPPORTED_32_BIT_ABIS":["armeabi-v7a","armeabi"],"SUPPORTED_64_BIT_ABIS":[],"SUPPORTED_ABIS":["armeabi-v7a","armeabi"],"TAGS":"release-keys","TIME":1657810952000,"TYPE":"user","UNKNOWN":"unknown","USER":"android-build","VERSION":{"ACTIVE_CODENAMES":[],"BASE_OS":"","CODENAME":"REL","FIRST_SDK_INT":28,"INCREMENTAL":"8830006","PREVIEW_SDK_INT":0,"RELEASE":"9","RESOURCES_SDK_INT":28,"SDK":"28","SDK_INT":28,"SECURITY_PATCH":"2022-05-05"}}
+```  
+***Build config***: 
+```json
+{"APPLICATION_ID":"org.jellyfin.androidtv","BUILD_TYPE":"release","DEBUG":false,"DEVELOPMENT":false,"VERSION_CODE":160799,"VERSION_NAME":"0.16.7"}
+```  
+
+### Device information
+
+***Android version***: `9`  
+***Device brand***: `SHARP`  
+***Device product***: `tclilux`  
+***Device model***: `AQUOS-TVX19B`  
+
+### Crash information
+
+***Start time***: `2024-04-03T14:34:07.776+01:00`  
+***Crash time***: `2024-04-03T14:37:14.972+01:00`  
+

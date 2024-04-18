@@ -1,0 +1,25 @@
+2024-04-18 03:19:38|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+2024-04-18 03:56:48|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+2024-04-18 04:00:00|INFO    |root                            |BAZARR All existing movie subtitles indexed from disk.|
+2024-04-18 04:00:00|INFO    |root                            |BAZARR All existing episode subtitles indexed from disk.|
+2024-04-18 04:17:13|INFO    |root                            |BAZARR Finished searching for Subtitles to upgrade. Check History for more information.|
+2024-04-18 09:19:38|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+2024-04-18 09:56:48|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+2024-04-18 11:05:46|INFO    |root                            |BAZARR Running cache maintenance|
+2024-04-18 15:19:38|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+2024-04-18 15:56:48|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|
+2024-04-18 16:17:13|INFO    |root                            |BAZARR Finished searching for Subtitles to upgrade. Check History for more information.|
+2024-04-18 19:33:48|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-04-18 19:33:48|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+2024-04-18 19:33:48|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+2024-04-18 19:33:48|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+2024-04-18 19:33:48|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+2024-04-18 19:34:14|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+2024-04-18 19:34:14|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+2024-04-18 19:34:14|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-04-18 19:34:15|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+2024-04-18 19:34:15|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+2024-04-18 23:31:06|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-18 23:31:06|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-18 23:40:30|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-18 23:40:30|INFO    |root                            |BAZARR All providers are throttled|

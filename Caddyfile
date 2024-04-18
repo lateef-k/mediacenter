@@ -1,0 +1,55 @@
+{
+	auto_https off
+	log DEBUG
+}
+http://ludvi {
+    handle / {
+        respond * <<EOF
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Links</title>
+</head>
+<body>
+    <h1>Services</h1>
+    <ul>
+        <li><a href="/sonarr">Sonarr</a></li>
+        <li><a href="/radarr">Radarr</a></li>
+        <li><a href="/bazarr">Bazarr</a></li>
+        <li><a href="/prowlarr">Prowlarr</a></li>
+        <li><a href="/jellyfin">Jellyfin</a></li>
+        <li><a href="/jellyseerr">Jellyseerr</a></li>
+        <li><a href="/qbittorrent">qBittorrent</a></li>
+        <li><a href="/sabnzbd">SABnzbd</a></li>
+    </ul>
+</body>
+</html>
+EOF
+        header Content-Type text/html
+        }
+    handle /sonarr* {
+        redir http://ludvi:8989
+    }
+    handle /radarr* {
+        redir http://ludvi:7878
+    }
+    handle /bazarr* {
+        redir http://ludvi:6767
+    }
+    handle /prowlarr* {
+        redir http://ludvi:9696
+    }
+    handle /jellyfin* {
+        redir http://ludvi:8096
+    }
+    handle /jellyseerr* {
+        redir http://ludvi:5056
+    }
+    handle /qbittorrent* {
+        redir http://ludvi:8080
+    }
+    handle /sabnzbd* {
+        redir http://ludvi:8081
+    }
+}
+
