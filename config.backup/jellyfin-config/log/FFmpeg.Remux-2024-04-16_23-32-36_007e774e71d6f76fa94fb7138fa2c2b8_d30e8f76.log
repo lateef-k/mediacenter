@@ -1,0 +1,497 @@
+/videos/007e774e-71d6-f76f-a94f-b7138fa2c2b8/hls1/main/0.ts
+
+{"Protocol":0,"Id":"007e774e71d6f76fa94fb7138fa2c2b8","Path":"/data/tv/Hell\u0027s Kitchen (US)/Season 22/Hells.Kitchen.US.S22E01.720p.WEB.h264-BAE.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":1124705408,"Name":"Hells.Kitchen.US.S22E01.720p.WEB.h264-BAE","IsRemote":false,"ETag":"809928d2d9016c6adc08e54fd27fc650","RunTimeTicks":25918889984,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"h264","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":"bt709","ColorTransfer":"bt709","ColorPrimaries":"bt709","DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"720p H264 SDR","NalLengthSize":"4","IsInterlaced":false,"IsAVC":true,"ChannelLayout":null,"BitRate":3471461,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":720,"Width":1280,"AverageFrameRate":29.97003,"RealFrameRate":29.97003,"Profile":"High","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":31,"IsAnamorphic":null},{"Codec":"aac","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"English - AAC - Stereo - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"stereo","BitRate":126754,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":2,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":"HE-AAC","Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Undefined","LocalizedDefault":"Default","LocalizedForced":"Forced","LocalizedExternal":"External","DisplayTitle":"English - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":3598215,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -fflags +genpts -f matroska,webm  -i file:"/data/tv/Hell's Kitchen (US)/Season 22/Hells.Kitchen.US.S22E01.720p.WEB.h264-BAE.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 copy -bsf:v h264_mp4toannexb -start_at_zero -codec:a:0 copy -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 6 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917.m3u8"
+
+
+ffmpeg version 5.1.4-Jellyfin Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libsvtav1 --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-opencl --enable-vaapi --enable-amf --enable-libmfx --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, matroska,webm, from 'file:/data/tv/Hell's Kitchen (US)/Season 22/Hells.Kitchen.US.S22E01.720p.WEB.h264-BAE.mkv':
+  Metadata:
+    encoder         : libebml v1.4.4 + libmatroska v1.7.1
+    creation_time   : 2023-09-29T05:20:29.000000Z
+  Duration: 00:43:11.89, start: 0.000000, bitrate: 3471 kb/s
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720, SAR 1:1 DAR 16:9, 29.97 fps, 29.97 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 3342058
+      DURATION        : 00:43:11.889000000
+      NUMBER_OF_FRAMES: 77679
+      NUMBER_OF_BYTES : 1082780484
+      _STATISTICS_WRITING_APP: mkvmerge v79.0 ('Funeral Pyres') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-09-29 05:20:29
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 126754
+      DURATION        : 00:43:11.872000000
+      NUMBER_OF_FRAMES: 60747
+      NUMBER_OF_BYTES : 41066367
+      _STATISTICS_WRITING_APP: mkvmerge v79.0 ('Funeral Pyres') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-09-29 05:20:29
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Subtitle: subrip
+    Metadata:
+      BPS             : 135
+      DURATION        : 00:43:02.945000000
+      NUMBER_OF_FRAMES: 1359
+      NUMBER_OF_BYTES : 43787
+      _STATISTICS_WRITING_APP: mkvmerge v79.0 ('Funeral Pyres') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2023-09-29 05:20:29
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Output #0, hls, to '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 90k tbn (default)
+  Stream #0:1: Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039170.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039171.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039172.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039173.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039174.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039175.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039176.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039177.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039178.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed5039179.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391710.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391711.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391712.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391713.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391714.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391715.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391716.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391717.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391718.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391719.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391720.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391721.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391722.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391723.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391724.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391725.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391726.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391727.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391728.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391729.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391730.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391731.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391732.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391733.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391734.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391735.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391736.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391737.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391738.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391739.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391740.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391741.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391742.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391743.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391744.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391745.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391746.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391747.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391748.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391749.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391750.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391751.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391752.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391753.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391754.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391755.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391756.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391757.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391758.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391759.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391760.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391761.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391762.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391763.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391764.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391765.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391766.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391767.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391768.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391769.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391770.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391771.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391772.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391773.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391774.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391775.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391776.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391777.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391778.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391779.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391780.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391781.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391782.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391783.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391784.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391785.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391786.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391787.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391788.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391789.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391790.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391791.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391792.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391793.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391794.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391795.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391796.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391797.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391798.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed50391799.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917100.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917101.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917102.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917103.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917104.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917105.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917106.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917107.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917108.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917109.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917110.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917111.ts' for writing
+frame=20215 fps=0.0 q=-1.0 size=N/A time=00:11:14.51 bitrate=N/A speed=1.34e+03x    
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917112.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917113.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917114.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917115.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917116.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917117.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917118.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917119.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917120.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917121.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917122.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917123.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917124.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917125.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917126.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917127.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917128.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917129.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917130.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917131.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917132.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917133.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917134.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917135.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917136.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917137.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917138.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917139.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917140.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917141.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917142.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917143.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917144.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917145.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917146.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917147.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917148.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917149.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917150.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917151.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917152.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917153.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917154.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917155.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917156.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917157.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917158.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917159.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917160.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917161.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917162.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917163.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917164.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917165.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917166.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917167.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917168.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917169.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917170.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917171.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917172.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917173.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917174.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917175.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917176.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917177.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917178.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917179.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917180.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917181.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917182.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917183.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917184.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917185.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917186.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917187.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917188.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917189.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917190.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917191.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917192.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917193.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917194.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917195.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917196.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917197.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917198.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917199.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917200.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917201.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917202.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917203.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917204.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917205.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917206.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917207.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917208.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917209.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917210.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917211.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917212.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917213.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917214.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917215.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917216.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917217.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917218.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917219.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917220.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917221.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917222.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917223.ts' for writing
+frame=40299 fps=40220 q=-1.0 size=N/A time=00:22:24.59 bitrate=N/A speed=1.34e+03x    
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917224.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917225.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917226.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917227.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917228.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917229.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917230.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917231.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917232.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917233.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917234.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917235.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917236.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917237.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917238.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917239.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917240.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917241.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917242.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917243.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917244.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917245.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917246.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917247.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917248.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917249.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917250.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917251.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917252.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917253.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917254.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917255.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917256.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917257.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917258.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917259.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917260.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917261.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917262.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917263.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917264.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917265.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917266.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917267.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917268.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917269.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917270.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917271.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917272.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917273.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917274.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917275.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917276.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917277.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917278.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917279.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917280.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917281.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917282.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917283.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917284.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917285.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917286.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917287.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917288.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917289.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917290.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917291.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917292.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917293.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917294.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917295.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917296.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917297.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917298.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917299.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917300.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917301.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917302.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917303.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917304.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917305.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917306.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917307.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917308.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917309.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917310.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917311.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917312.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917313.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917314.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917315.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917316.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917317.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917318.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917319.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917320.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917321.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917322.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917323.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917324.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917325.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917326.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917327.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917328.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917329.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917330.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917331.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917332.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917333.ts' for writing
+frame=60106 fps=39993 q=-1.0 size=N/A time=00:33:25.58 bitrate=N/A speed=1.33e+03x    
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917334.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917335.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917336.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917337.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917338.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917339.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917340.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917341.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917342.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917343.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917344.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917345.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917346.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917347.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917348.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917349.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917350.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917351.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917352.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917353.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917354.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917355.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917356.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917357.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917358.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917359.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917360.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917361.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917362.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917363.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917364.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917365.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917366.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917367.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917368.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917369.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917370.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917371.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917372.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917373.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917374.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917375.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917376.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917377.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917378.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917379.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917380.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917381.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917382.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917383.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917384.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917385.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917386.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917387.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917388.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917389.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917390.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917391.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917392.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917393.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917394.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917395.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917396.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917397.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917398.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917399.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917400.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917401.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917402.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917403.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917404.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917405.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917406.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917407.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917408.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917409.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917410.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917411.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917412.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917413.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917414.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917415.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917416.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917417.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917418.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917419.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917420.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917421.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917422.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917423.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917424.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917425.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917426.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917427.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917428.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917429.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917430.ts' for writing
+[hls @ 0x563dadd74d40] Opening '/config/data/transcodes/3f19033cbf6af9aeedc54331ed503917431.ts' for writing
+frame=77679 fps=40191 q=-1.0 Lsize=N/A time=00:43:11.82 bitrate=N/A speed=1.34e+03x    
+video:1057371kB audio:40104kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

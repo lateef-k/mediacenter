@@ -164,4 +164,11 @@ services:
       - UN_RADARR_0_TIMEOUT=10s
       - UN_RADARR_0_DELETE_ORIG=false
       - UN_RADARR_0_DELETE_DELAY=5m
-
+  recyclarr:
+    image: ghcr.io/recyclarr/recyclarr
+    container_name: recyclarr
+    user: 30033:30033
+    volumes:
+      - ./config/recyclarr-config:/config
+    environment:
+      - TZ=Asia/Kuwait

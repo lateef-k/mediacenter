@@ -1,0 +1,711 @@
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:00:00.063Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:00:00.072Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"02cc2368-1ace-4742-a50e-117e7f5ba4bb","timestamp":"2024-04-18T21:00:00.072Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:00:00.077Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:00:00.079Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:00:00.130Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:00:00.135Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:00:00.142Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:00:00.143Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:00:00.143Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:00:00.419Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:00:04.421Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:00:04.619Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:00:04.639Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:00:04.641Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:00:04.642Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:00:04.643Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:00:04.658Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:00:04.661Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:00:04.668Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:00:04.730Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:00:08.735Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:01:00.036Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:01:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:02:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:02:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:03:00.030Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:03:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:04:00.060Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:04:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:05:00.060Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:05:00.066Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"dc1aa724-e1ab-4daa-96ac-d1bf0121b910","timestamp":"2024-04-18T21:05:00.066Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:05:00.071Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:05:00.072Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:05:00.100Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:05:00.310Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:05:00.374Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:05:00.423Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:05:00.472Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:05:00.472Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:05:04.474Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:05:05.002Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:05:05.007Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:05:05.007Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:05:05.030Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:05:05.031Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:05:05.080Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:05:05.081Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:05:05.103Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:05:05.139Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:05:09.144Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:06:00.009Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:06:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:07:00.064Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:07:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:08:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:08:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:09:00.064Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:09:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:10:00.060Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:10:00.064Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"df505b04-04a3-4063-b644-29190c09f35e","timestamp":"2024-04-18T21:10:00.064Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:10:00.067Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:10:00.070Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:10:00.098Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:10:00.128Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:10:00.128Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:10:00.129Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:10:00.129Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:10:00.360Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:10:04.364Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:10:04.469Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:10:04.480Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:10:04.481Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:10:04.481Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:10:04.487Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:10:04.490Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:10:04.503Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:10:04.505Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:10:04.577Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:10:08.581Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:11:00.056Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:11:00.061Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2024-04-18T21:11:45.637Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:12:00.019Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:12:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:13:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:13:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:14:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:14:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:15:00.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:15:00.053Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"3a2a2f7a-469c-4eb2-a994-f130df77a849","timestamp":"2024-04-18T21:15:00.054Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:15:00.058Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:15:00.060Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:15:00.113Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:15:00.463Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:15:00.486Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:15:00.509Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:15:00.517Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:15:00.544Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:15:04.547Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:15:05.144Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:15:05.155Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:15:05.155Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:15:05.163Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:15:05.194Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:15:05.245Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:15:05.249Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:15:05.281Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:15:05.285Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:15:09.292Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:16:00.013Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:16:00.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:17:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:17:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:18:00.017Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:18:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:19:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:19:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:20:00.062Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:20:00.065Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"be22725d-a874-4b06-8291-da2f1df53c8a","timestamp":"2024-04-18T21:20:00.066Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:20:00.068Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:20:00.070Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:20:00.102Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:20:00.107Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:20:00.117Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:20:00.117Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:20:00.125Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:20:00.614Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:20:04.617Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:20:04.793Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:20:04.811Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:20:04.814Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:20:04.818Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:20:04.820Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:20:04.824Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:20:04.844Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:20:04.846Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:20:04.915Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:20:08.920Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:21:00.054Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:21:00.059Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:22:00.036Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:22:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:23:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:23:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:24:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:24:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:25:00.062Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:25:00.065Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"1a58b7d3-4da7-4030-a8ba-3bd6d2a334d9","timestamp":"2024-04-18T21:25:00.065Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:25:00.069Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:25:00.071Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:25:00.130Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:25:00.439Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:25:00.442Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:25:00.480Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:25:00.480Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:25:00.502Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:25:04.504Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:25:05.093Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:25:05.095Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:25:05.114Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:25:05.125Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:25:05.126Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:25:05.141Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:25:05.149Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:25:05.155Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:25:05.195Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:25:09.200Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:26:00.017Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:26:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:27:00.020Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:27:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:28:00.067Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:28:00.071Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2024-04-18T21:28:14.490Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:29:00.052Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:29:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:30:00.063Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:30:00.068Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"99aea161-722e-4de8-bf26-107d743ba3f0","timestamp":"2024-04-18T21:30:00.068Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:30:00.070Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:30:00.073Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:30:00.112Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:30:00.120Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:30:00.131Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:30:00.131Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:30:00.132Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:30:00.561Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:30:04.565Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:30:04.674Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:30:04.682Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:30:04.682Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:30:04.687Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:30:04.687Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:30:04.688Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:30:04.693Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:30:04.693Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:30:04.781Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:30:08.786Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:31:00.056Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:31:00.061Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:32:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:32:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:33:00.036Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:33:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:34:00.064Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:34:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:35:00.036Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:35:00.041Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"333705ab-fcfe-40af-b832-653543fa5cc9","timestamp":"2024-04-18T21:35:00.041Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:35:00.045Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:35:00.047Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:35:00.096Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:35:00.385Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:35:00.459Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:35:00.559Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:35:00.560Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:35:00.636Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:35:04.640Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:35:05.131Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:35:05.156Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:35:05.164Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:35:05.199Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:35:05.210Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:35:05.240Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:35:05.249Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:35:05.252Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:35:05.425Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:35:09.430Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:36:00.057Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:36:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:37:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:37:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:38:00.010Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:38:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:39:00.010Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:39:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:40:00.060Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:40:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"00363465-f632-4174-b7ee-a5fca8df6fb3","timestamp":"2024-04-18T21:40:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:40:00.066Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:40:00.068Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:40:00.120Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:40:00.132Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:40:00.143Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:40:00.143Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:40:00.144Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:40:00.610Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:40:04.614Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:40:04.733Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:40:04.744Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:40:04.745Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:40:04.769Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:40:04.771Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:40:04.776Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:40:04.778Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:40:04.784Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:40:04.845Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:40:08.849Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:41:00.046Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:41:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:42:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:42:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:43:00.046Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:43:00.051Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:44:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:44:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:45:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:45:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"58b5a4e4-6865-4328-8dd4-51cfe1ede3fb","timestamp":"2024-04-18T21:45:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:45:00.038Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:45:00.040Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:45:00.073Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:45:00.451Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:45:00.452Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:45:00.542Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:45:00.547Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:45:00.657Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:45:04.659Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:45:05.115Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:45:05.119Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:45:05.135Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:45:05.169Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:45:05.173Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:45:05.202Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:45:05.245Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:45:05.251Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:45:05.484Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:45:09.489Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2024-04-18T21:45:30.409Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:46:00.006Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:46:00.011Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:47:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:47:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:48:00.041Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:48:00.046Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:49:00.050Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:49:00.059Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:50:00.049Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:50:00.053Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"feb57021-cdd0-4711-9b3f-9051e5bafd8c","timestamp":"2024-04-18T21:50:00.054Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:50:00.057Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:50:00.059Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:50:00.101Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:50:00.111Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:50:00.114Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:50:00.119Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:50:00.119Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:50:00.344Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:50:04.347Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:50:04.408Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:50:04.452Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:50:04.462Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:50:04.463Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:50:04.465Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:50:04.470Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:50:04.482Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:50:04.484Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:50:04.558Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:50:08.563Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:51:00.057Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:51:00.062Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:52:00.005Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:52:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:53:00.062Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:53:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:54:00.011Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:54:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:55:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T21:55:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"97aa1998-a3f3-488c-91e6-d3f03a98ee1f","timestamp":"2024-04-18T21:55:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T21:55:00.030Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:55:00.031Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T21:55:00.083Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T21:55:00.323Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T21:55:00.324Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T21:55:00.363Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T21:55:00.364Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T21:55:00.454Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T21:55:04.457Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T21:55:04.766Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T21:55:04.782Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T21:55:04.787Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T21:55:04.788Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T21:55:04.893Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T21:55:04.907Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T21:55:04.926Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T21:55:04.958Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T21:55:04.990Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T21:55:08.992Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:56:00.056Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:56:00.062Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:57:00.034Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:57:00.039Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:58:00.005Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:58:00.011Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T21:59:00.027Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T21:59:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:00:00.059Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:00:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"2494a81b-4907-4f51-a617-b4e8b4cd4f7a","timestamp":"2024-04-18T22:00:00.064Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Download Sync Reset","timestamp":"2024-04-18T22:00:00.068Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:00:00.072Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:00:00.073Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:00:00.104Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:00:00.177Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:00:00.192Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:00:00.193Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:00:00.193Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:00:00.460Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:00:04.462Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:00:04.564Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:00:04.573Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:00:04.574Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:00:04.582Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:00:04.582Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:00:04.584Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:00:04.591Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:00:04.594Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:00:04.675Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:00:08.679Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2024-04-18T22:00:53.440Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:01:00.012Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:01:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:02:00.029Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:02:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:03:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:03:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:04:00.033Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:04:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:05:00.026Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:05:00.030Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"04aaa603-735c-4795-b135-0986d8341bd5","timestamp":"2024-04-18T22:05:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:05:00.034Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:05:00.038Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:05:00.094Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:05:00.362Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:05:00.363Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:05:00.381Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:05:00.388Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:05:00.485Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:05:04.488Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:05:04.824Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:05:04.829Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:05:04.905Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:05:04.917Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:05:04.964Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:05:04.967Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:05:04.984Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:05:05.056Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:05:05.064Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:05:09.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:06:00.057Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:06:00.062Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:07:00.040Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:07:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:08:00.065Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:08:00.069Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:09:00.024Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:09:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:10:00.048Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:10:00.051Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"6d211bd1-e4e4-49ac-b202-eb02b4e92fb6","timestamp":"2024-04-18T22:10:00.051Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:10:00.055Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:10:00.057Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:10:00.088Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:10:00.092Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:10:00.097Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:10:00.117Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:10:00.117Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:10:00.410Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:10:04.413Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:10:04.536Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:10:04.576Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:10:04.587Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:10:04.589Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:10:04.590Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:10:04.592Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:10:04.606Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:10:04.607Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:10:04.683Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:10:08.687Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:11:00.056Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:11:00.060Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:12:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:12:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:13:00.020Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:13:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:14:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:14:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:15:00.035Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:15:00.043Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"467e9185-7af8-4084-a4cf-898eae7aa1fe","timestamp":"2024-04-18T22:15:00.043Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:15:00.049Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:15:00.051Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:15:00.102Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:15:00.505Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:15:00.507Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:15:00.594Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:15:00.595Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:15:00.661Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:15:04.664Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:15:05.091Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:15:05.094Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:15:05.226Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:15:05.253Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:15:05.254Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:15:05.289Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:15:05.297Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:15:05.335Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:15:05.337Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:15:09.340Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:16:00.037Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:16:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:17:00.063Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:17:00.068Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2024-04-18T22:23:33.777Z"}
+{"level":"info","message":"Starting Overseerr version 1.7.0","timestamp":"2024-04-18T22:23:34.120Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2024-04-18T22:23:35.089Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2024-04-18T22:23:35.120Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2024-04-18T22:23:35.275Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:24:00.007Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:25:00.028Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:25:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"26e84c7f-c2fa-4b6e-90cb-d82f82173aeb","timestamp":"2024-04-18T22:25:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:25:00.050Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:25:00.816Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:25:00.817Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:25:00.834Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:25:00.845Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:25:00.853Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:25:00.904Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:25:04.908Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:25:05.745Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:25:05.797Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:25:05.821Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:25:05.856Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:25:05.884Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:25:05.888Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:25:05.902Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:25:05.948Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:25:05.978Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:25:09.980Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:26:00.018Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:26:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:27:00.034Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: sonarr_server","timestamp":"2024-04-18T22:27:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:28:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:29:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:30:00.033Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:30:00.044Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"9fd221fb-326a-41c6-957e-04037e27264d","timestamp":"2024-04-18T22:30:00.044Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:30:00.049Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:30:00.079Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:30:00.092Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:30:00.096Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:30:00.108Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:30:00.108Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:30:00.113Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:30:04.118Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:30:04.227Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:30:04.232Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:30:04.241Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:30:04.242Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:30:04.243Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:30:04.246Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:30:04.252Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:30:04.256Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:30:04.335Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:30:08.343Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:31:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:32:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:33:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:34:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:35:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:35:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"cd5afa9e-4e79-4998-badf-5a721ee9b768","timestamp":"2024-04-18T22:35:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:35:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:36:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:37:00.031Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:37:04.734Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:37:06.158Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:37:07.459Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:37:07.614Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:37:07.661Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:37:07.671Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:37:11.676Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:37:12.011Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:37:12.024Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:37:12.028Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:37:12.070Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:37:12.073Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:37:12.089Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:37:12.089Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:37:12.138Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:37:12.152Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:37:16.156Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:38:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:39:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:40:00.032Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:40:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"8c082392-dbc2-457a-835f-81850c7c3e69","timestamp":"2024-04-18T22:40:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:40:00.039Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:40:00.706Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:40:00.708Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:40:00.717Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:40:00.730Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:40:00.736Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:40:00.737Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:40:04.742Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:40:04.861Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:40:04.870Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:40:04.882Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:40:04.899Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:40:04.900Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:40:04.901Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:40:04.902Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:40:04.909Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:40:04.988Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:40:08.989Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:41:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:42:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:43:00.018Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2024-04-18T22:43:35.112Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:44:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:45:00.010Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:45:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"d977cce0-ced5-4286-87b6-c0e060357129","timestamp":"2024-04-18T22:45:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:45:00.041Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:45:00.321Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:45:00.321Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:45:00.322Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:45:00.333Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:45:00.418Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:45:00.452Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:45:04.456Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:45:04.767Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:45:04.777Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:45:04.780Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:45:04.815Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:45:04.816Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:45:04.865Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:45:04.869Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:45:04.873Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:45:04.884Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:45:08.888Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:46:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:47:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:48:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:49:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:50:00.033Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:50:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"5cbd28f4-ef96-46f4-b8a3-d4875f3f04aa","timestamp":"2024-04-18T22:50:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:50:00.042Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:50:00.073Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:50:00.093Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:50:00.098Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:50:00.105Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:50:00.106Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:50:00.106Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:50:04.111Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:50:04.239Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:50:04.246Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:50:04.253Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:50:04.254Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:50:04.254Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:50:04.255Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:50:04.265Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:50:04.269Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:50:04.335Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:50:08.337Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:51:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:52:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:53:00.012Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:54:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:55:00.021Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T22:55:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"bdad4669-b34a-466a-aab7-7e1ad8e154ef","timestamp":"2024-04-18T22:55:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T22:55:00.051Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T22:55:00.312Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T22:55:00.362Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T22:55:00.418Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T22:55:00.419Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T22:55:00.464Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T22:55:00.465Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T22:55:04.470Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T22:55:04.831Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T22:55:04.843Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T22:55:04.848Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T22:55:04.853Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T22:55:04.861Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T22:55:04.861Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T22:55:05.002Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T22:55:05.009Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T22:55:05.077Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T22:55:09.083Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:56:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:57:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:58:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T22:59:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T23:00:00.025Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T23:00:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"2364ec36-2439-4b35-a88d-3b37a91ae4ba","timestamp":"2024-04-18T23:00:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T23:00:00.037Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T23:00:00.082Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T23:00:00.089Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T23:00:00.108Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T23:00:00.109Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T23:00:00.109Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T23:00:00.110Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T23:00:04.115Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T23:00:04.257Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T23:00:04.258Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T23:00:04.259Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T23:00:04.261Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T23:00:04.266Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T23:00:04.269Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T23:00:04.273Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T23:00:04.278Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T23:00:04.341Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T23:00:08.346Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T23:01:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T23:02:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T23:03:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T23:04:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2024-04-18T23:05:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Sync","timestamp":"2024-04-18T23:05:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"ec3cfc8f-c3a4-4b84-9a88-02b8c6dca96b","timestamp":"2024-04-18T23:05:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Movies","timestamp":"2024-04-18T23:05:00.039Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The French Dispatch","timestamp":"2024-04-18T23:05:00.354Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Green Knight","timestamp":"2024-04-18T23:05:00.397Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Steve Jobs","timestamp":"2024-04-18T23:05:00.483Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found BlackBerry","timestamp":"2024-04-18T23:05:00.484Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found The Holdovers","timestamp":"2024-04-18T23:05:00.501Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Title already exists and no new media types found Children of Men","timestamp":"2024-04-18T23:05:00.540Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Shows","timestamp":"2024-04-18T23:05:04.545Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Completely Made-Up Adventures of Dick Turpin","timestamp":"2024-04-18T23:05:05.041Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Fallout","timestamp":"2024-04-18T23:05:05.085Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Tokyo Vice","timestamp":"2024-04-18T23:05:05.090Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Quiet on Set: The Dark Side of Kids TV","timestamp":"2024-04-18T23:05:05.112Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: The Bear","timestamp":"2024-04-18T23:05:05.121Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Constellation","timestamp":"2024-04-18T23:05:05.144Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Resident Alien","timestamp":"2024-04-18T23:05:05.166Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Shōgun","timestamp":"2024-04-18T23:05:05.171Z"}
+{"label":"Jellyfin Sync","level":"debug","message":"Updating existing title: Hell's Kitchen","timestamp":"2024-04-18T23:05:05.193Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2024-04-18T23:05:09.197Z"}

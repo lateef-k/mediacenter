@@ -1,0 +1,175 @@
+---
+client: Jellyfin for Android TV
+client_version: 0.16.7
+client_repository: https://github.com/jellyfin/jellyfin-androidtv
+type: crash_report
+format: markdown
+---
+### Logs
+
+***Stack Trace***: 
+```log
+org.jellyfin.sdk.api.client.exception.InvalidStatusException: Invalid HTTP status in response: 404
+	at org.jellyfin.sdk.api.client.KtorClient.request$suspendImpl(KtorClient.kt:109)
+	at org.jellyfin.sdk.api.client.KtorClient$request$1.invokeSuspend(Unknown Source:19)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6718)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@986360e, Dispatchers.Main.immediate]
+
+```  
+***Logcat***: 
+```log
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1816)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.os.Looper.loop(Looper.java:193)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at java.lang.reflect.Method.invoke(Native Method)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-06 19:32:05.568 E/AndroidRuntime(11863): Caused by: java.lang.NullPointerException
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at org.jellyfin.androidtv.data.querying.StdItemQuery.<init>(StdItemQuery.kt:23)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.setupQueries(BrowseGridFragment.java:545)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.onCreate(BrowseGridFragment.java:177)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.Fragment.performCreate(Fragment.java:3094)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentStateManager.create(FragmentStateManager.java:504)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:268)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:122)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1455)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3034)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentManager.dispatchCreate(FragmentManager.java:2941)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentController.dispatchCreate(FragmentController.java:252)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:219)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at org.jellyfin.androidtv.ui.browsing.MainActivity.onCreate(MainActivity.kt:57)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.Activity.performCreate(Activity.java:7144)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.Activity.performCreate(Activity.java:7135)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1271)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2931)
+04-06 19:32:05.568 E/AndroidRuntime(11863): 	... 11 more
+--------- beginning of main
+04-07 23:50:26.815 D/NavigationRepositoryImpl(18063): Navigating back
+04-07 23:50:26.950 D/HomeRowsFragment(18063): Refresh item Resident Alien S2 E1
+04-07 23:50:26.954 I/HomeRowsFragment(18063): Updating audio queue in HomeFragment (onResume)
+04-07 23:50:26.956 D/NavigationRepositoryImpl(18063): Navigating to Fragment(fragment=class org.jellyfin.androidtv.ui.home.HomeFragment (Kotlin reflection is not available), arguments=Bundle[{}]) (via reset)
+04-07 23:50:26.966 I/org.jellyfin.sdk.api.client.KtorClient(18063): GET https://9e3f-37-36-200-187.ngrok-free.app/Users/3b658eba-5288-485b-89cf-b2a7dca0b110/Items/4d5751f8-7ad4-c364-80a1-9ea4718fb8be
+04-07 23:50:27.451 I/lyfin.androidt(18063): Background concurrent copying GC freed 73885(2MB) AllocSpace objects, 0(0B) LOS objects, 24% free, 10MB/14MB, paused 351us total 181.020ms
+04-07 23:50:27.527 D/ACRA    (18063): onActivityPaused class org.jellyfin.androidtv.ui.browsing.MainActivity
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): Failed to refresh item
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): org.jellyfin.sdk.api.client.exception.InvalidStatusException: Invalid HTTP status in response: 404
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at org.jellyfin.sdk.api.client.KtorClient.request$suspendImpl(KtorClient.kt:109)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at org.jellyfin.sdk.api.client.KtorClient$request$1.invokeSuspend(Unknown Source:19)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+04-07 23:50:27.631 E/BaseRowItem$refresh(18063): 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+04-07 23:50:28.469 I/ItemRowAdapter(18063): Re-retrieving row of type Resume
+04-07 23:50:28.473 I/ItemRowAdapter(18063): Re-retrieving row of type NextUp
+04-07 23:50:28.481 D/jellyfin-apiclient(18063): Adding request to queue: https://9e3f-37-36-200-187.ngrok-free.app/Shows/NextUp?Fields=PrimaryImageAspectRatio%2COverview%2CChildCount&UserId=3b658eba-5288-485b-89cf-b2a7dca0b110&Limit=50&ImageTypeLimit=1&format=json
+04-07 23:50:28.484 I/org.jellyfin.sdk.api.client.KtorClient(18063): GET https://9e3f-37-36-200-187.ngrok-free.app/Users/3b658eba-5288-485b-89cf-b2a7dca0b110/Items/Resume?limit=50&fields=PrimaryImageAspectRatio&fields=Overview&fields=ItemCounts&fields=DisplayPreferencesId&fields=ChildCount&mediaTypes=Video&imageTypeLimit=1&enableTotalRecordCount=false&enableImages=true&excludeActiveSessions=false
+04-07 23:50:28.774 D/ACRA    (18063): onActivityStopped class org.jellyfin.androidtv.ui.browsing.MainActivity
+04-07 23:50:28.802 D/MainActivity$onStop(18063): MainActivity stopped
+04-07 23:50:28.814 I/SessionRepositoryImpl$restoreSession(18063): Restoring session
+04-07 23:50:28.824 D/ACRA    (18063): onActivityDestroyed class org.jellyfin.androidtv.ui.browsing.MainActivity
+04-07 23:50:28.838 D/Compose Focus(18063): Owner FocusChanged(true)
+04-07 23:50:29.161 E/Volley  (18063): [17010] NetworkUtility.shouldRetryException: Unexpected response code 404 for https://9e3f-37-36-200-187.ngrok-free.app/Shows/NextUp?Fields=PrimaryImageAspectRatio%2COverview%2CChildCount&UserId=3b658eba-5288-485b-89cf-b2a7dca0b110&Limit=50&ImageTypeLimit=1&format=json
+04-07 23:50:29.164 E/ACRA    (18063): ACRA caught a InvalidStatusException for org.jellyfin.androidtv
+04-07 23:50:29.164 E/ACRA    (18063): org.jellyfin.sdk.api.client.exception.InvalidStatusException: Invalid HTTP status in response: 404
+04-07 23:50:29.164 E/ACRA    (18063): 	at org.jellyfin.sdk.api.client.KtorClient.request$suspendImpl(KtorClient.kt:109)
+04-07 23:50:29.164 E/ACRA    (18063): 	at org.jellyfin.sdk.api.client.KtorClient$request$1.invokeSuspend(Unknown Source:19)
+04-07 23:50:29.164 E/ACRA    (18063): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+04-07 23:50:29.164 E/ACRA    (18063): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+04-07 23:50:29.164 E/ACRA    (18063): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+04-07 23:50:29.164 E/ACRA    (18063): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:191)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:147)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:15)
+04-07 23:50:29.164 E/ACRA    (18063): 	at io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:93)
+04-07 23:50:29.164 E/ACRA    (18063): 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+04-07 23:50:29.164 E/ACRA    (18063): 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+04-07 23:50:29.164 E/ACRA    (18063): 	at android.os.Handler.handleCallback(Handler.java:873)
+04-07 23:50:29.164 E/ACRA    (18063): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-07 23:50:29.164 E/ACRA    (18063): 	at android.os.Looper.loop(Looper.java:193)
+04-07 23:50:29.164 E/ACRA    (18063): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-07 23:50:29.164 E/ACRA    (18063): 	at java.lang.reflect.Method.invoke(Native Method)
+04-07 23:50:29.164 E/ACRA    (18063): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-07 23:50:29.164 E/ACRA    (18063): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-07 23:50:29.164 E/ACRA    (18063): 	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@986360e, Dispatchers.Main.immediate]
+04-07 23:50:29.165 D/ACRA    (18063): Building report
+04-07 23:50:29.170 D/ACRA    (18063): Starting collectors with priority FIRST
+04-07 23:50:29.172 D/ACRA    (18063): Calling collector org.acra.collector.DropBoxCollector
+04-07 23:50:29.172 D/ACRA    (18063): Calling collector org.acra.collector.LogCatCollector
+04-07 23:50:29.173 D/ACRA    (18063): Calling collector org.acra.collector.StacktraceCollector
+04-07 23:50:29.173 D/ACRA    (18063): Collector org.acra.collector.DropBoxCollector completed
+04-07 23:50:29.177 D/ACRA    (18063): Collector org.acra.collector.StacktraceCollector completed
+04-07 23:50:29.186 D/ACRA    (18063): Retrieving logcat output (buffer:default)...
+
+```  
+
+### App information
+
+***App version***: `0.16.7` (`160799`)  
+***Package name***: `org.jellyfin.androidtv`  
+***Build***: 
+```json
+{"BOARD":"gangnam","BOOTLOADER":"123456789","BRAND":"SHARP","CPU_ABI":"armeabi-v7a","CPU_ABI2":"armeabi","DEVICE":"gangnam","DISPLAY":"PTM5.200218.931","FINGERPRINT":"SHARP\/tclilux\/gangnam:9\/PTM5.200218.931\/8830006:user\/release-keys","HARDWARE":"m7322","HOST":"abfarm-64-central-00241","ID":"PTM5.200218.931","IS_DEBUGGABLE":false,"IS_EMULATOR":false,"MANUFACTURER":"SHARP","MODEL":"AQUOS-TVX19B","PERMISSIONS_REVIEW_REQUIRED":false,"PRODUCT":"tclilux","RADIO":"unknown","SUPPORTED_32_BIT_ABIS":["armeabi-v7a","armeabi"],"SUPPORTED_64_BIT_ABIS":[],"SUPPORTED_ABIS":["armeabi-v7a","armeabi"],"TAGS":"release-keys","TIME":1657810952000,"TYPE":"user","UNKNOWN":"unknown","USER":"android-build","VERSION":{"ACTIVE_CODENAMES":[],"BASE_OS":"","CODENAME":"REL","FIRST_SDK_INT":28,"INCREMENTAL":"8830006","PREVIEW_SDK_INT":0,"RELEASE":"9","RESOURCES_SDK_INT":28,"SDK":"28","SDK_INT":28,"SECURITY_PATCH":"2022-05-05"}}
+```  
+***Build config***: 
+```json
+{"APPLICATION_ID":"org.jellyfin.androidtv","BUILD_TYPE":"release","DEBUG":false,"DEVELOPMENT":false,"VERSION_CODE":160799,"VERSION_NAME":"0.16.7"}
+```  
+
+### Device information
+
+***Android version***: `9`  
+***Device brand***: `SHARP`  
+***Device product***: `tclilux`  
+***Device model***: `AQUOS-TVX19B`  
+
+### Crash information
+
+***Start time***: `2024-04-06T23:10:44.904+01:00`  
+***Crash time***: `2024-04-07T23:50:29.285+01:00`  
+

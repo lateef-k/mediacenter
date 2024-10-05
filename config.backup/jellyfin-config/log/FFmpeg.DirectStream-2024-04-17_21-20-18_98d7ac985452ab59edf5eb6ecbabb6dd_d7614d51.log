@@ -1,0 +1,180 @@
+/videos/98d7ac98-5452-ab59-edf5-eb6ecbabb6dd/hls1/main/0.ts
+
+{"Protocol":0,"Id":"98d7ac985452ab59edf5eb6ecbabb6dd","Path":"/data/tv/Gordon, Gino \u0026 Fred\u0027s Road Trip/Season 1/Gordon.Gino.and.Fred.Road.Trip.S01E02.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":3376250624,"Name":"Gordon.Gino.and.Fred.Road.Trip.S01E02.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb","IsRemote":false,"ETag":"f497b0cd0c2d77193880c8a010cdd5fd","RunTimeTicks":27768958976,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"h264","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":"bt709","ColorTransfer":"bt709","ColorPrimaries":"bt709","DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"1080p H264 SDR","NalLengthSize":"4","IsInterlaced":false,"IsAVC":true,"ChannelLayout":null,"BitRate":9726689,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":1080,"Width":1920,"AverageFrameRate":25,"RealFrameRate":25,"Profile":"High","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":40,"IsAnamorphic":null},{"Codec":"eac3","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"English - Dolby Digital\u002B - Stereo - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"stereo","BitRate":224000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":2,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":9950689,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -fflags +genpts  -i file:"/data/tv/Gordon, Gino & Fred's Road Trip/Season 1/Gordon.Gino.and.Fred.Road.Trip.S01E02.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 copy -bsf:v h264_mp4toannexb -start_at_zero -codec:a:0 libfdk_aac -ac 2 -ab 256000 -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 6 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/7f787e6bb474d915888aafd9fe487105%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/7f787e6bb474d915888aafd9fe487105.m3u8"
+
+
+ffmpeg version 5.1.4-Jellyfin Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.4.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libsvtav1 --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-opencl --enable-vaapi --enable-amf --enable-libmfx --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, matroska,webm, from 'file:/data/tv/Gordon, Gino & Fred's Road Trip/Season 1/Gordon.Gino.and.Fred.Road.Trip.S01E02.1080p.AMZN.WEB-DL.DDP2.0.H.264-NTb.mkv':
+  Metadata:
+    encoder         : libebml v1.3.5 + libmatroska v1.4.8
+    creation_time   : 2018-10-24T03:32:34.000000Z
+  Duration: 00:46:16.90, start: 0.000000, bitrate: 9726 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 9500760
+      BPS-eng         : 9500760
+      DURATION        : 00:46:16.880000000
+      DURATION-eng    : 00:46:16.880000000
+      NUMBER_OF_FRAMES: 69422
+      NUMBER_OF_FRAMES-eng: 69422
+      NUMBER_OF_BYTES : 3297808901
+      NUMBER_OF_BYTES-eng: 3297808901
+      _STATISTICS_WRITING_APP: mkvmerge v19.0.0 ('Brave Captain') 64-bit
+      _STATISTICS_WRITING_APP-eng: mkvmerge v19.0.0 ('Brave Captain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2018-10-24 03:32:34
+      _STATISTICS_WRITING_DATE_UTC-eng: 2018-10-24 03:32:34
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(eng): Audio: eac3, 48000 Hz, stereo, fltp, 224 kb/s (default)
+    Metadata:
+      BPS             : 224000
+      BPS-eng         : 224000
+      DURATION        : 00:46:16.896000000
+      DURATION-eng    : 00:46:16.896000000
+      NUMBER_OF_FRAMES: 86778
+      NUMBER_OF_FRAMES-eng: 86778
+      NUMBER_OF_BYTES : 77753088
+      NUMBER_OF_BYTES-eng: 77753088
+      _STATISTICS_WRITING_APP: mkvmerge v19.0.0 ('Brave Captain') 64-bit
+      _STATISTICS_WRITING_APP-eng: mkvmerge v19.0.0 ('Brave Captain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2018-10-24 03:32:34
+      _STATISTICS_WRITING_DATE_UTC-eng: 2018-10-24 03:32:34
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+      _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (eac3 (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+Output #0, hls, to '/config/data/transcodes/7f787e6bb474d915888aafd9fe487105.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 25 tbr, 90k tbn (default)
+  Stream #0:1: Audio: aac, 48000 Hz, stereo, s16, 256 kb/s (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libfdk_aac
+frame=    1 fps=0.0 q=-1.0 size=N/A time=-00:00:00.02 bitrate=N/A speed=N/A    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871050.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871051.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871052.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871053.ts' for writing
+frame=  742 fps=0.0 q=-1.0 size=N/A time=00:00:00.24 bitrate=N/A speed=0.49x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871054.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871055.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871056.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871057.ts' for writing
+frame= 1422 fps=1421 q=-1.0 size=N/A time=00:00:27.31 bitrate=N/A speed=27.3x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871058.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe4871059.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710510.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710511.ts' for writing
+frame= 1941 fps=1293 q=-1.0 size=N/A time=00:00:48.20 bitrate=N/A speed=32.1x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710512.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710513.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710514.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710515.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710516.ts' for writing
+frame= 2572 fps=1284 q=-1.0 size=N/A time=00:01:13.22 bitrate=N/A speed=36.5x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710517.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710518.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710519.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710520.ts' for writing
+frame= 3216 fps=1284 q=-1.0 size=N/A time=00:01:39.06 bitrate=N/A speed=39.6x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710521.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710522.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710523.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710524.ts' for writing
+frame= 3885 fps=1293 q=-1.0 size=N/A time=00:02:06.13 bitrate=N/A speed=  42x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710525.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710526.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710527.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710528.ts' for writing
+frame= 4554 fps=1300 q=-1.0 size=N/A time=00:02:32.71 bitrate=N/A speed=43.6x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710529.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710530.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710531.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710532.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710533.ts' for writing
+frame= 5187 fps=1295 q=-1.0 size=N/A time=00:02:57.86 bitrate=N/A speed=44.4x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710534.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710535.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710536.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710537.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710538.ts' for writing
+frame= 5916 fps=1313 q=-1.0 size=N/A time=00:03:27.22 bitrate=N/A speed=  46x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710539.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710540.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710541.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710542.ts' for writing
+frame= 6636 fps=1326 q=-1.0 size=N/A time=00:03:55.95 bitrate=N/A speed=47.1x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710543.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710544.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710545.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710546.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710547.ts' for writing
+frame= 7365 fps=1338 q=-1.0 size=N/A time=00:04:25.03 bitrate=N/A speed=48.1x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710548.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710549.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710550.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710551.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710552.ts' for writing
+frame= 8080 fps=1345 q=-1.0 size=N/A time=00:04:53.64 bitrate=N/A speed=48.9x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710553.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710554.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710555.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710556.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710557.ts' for writing
+frame= 8759 fps=1346 q=-1.0 size=N/A time=00:05:20.82 bitrate=N/A speed=49.3x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710558.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710559.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710560.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710561.ts' for writing
+frame= 9478 fps=1353 q=-1.0 size=N/A time=00:05:49.62 bitrate=N/A speed=49.9x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710562.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710563.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710564.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710565.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710566.ts' for writing
+frame=10155 fps=1353 q=-1.0 size=N/A time=00:06:16.52 bitrate=N/A speed=50.2x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710567.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710568.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710569.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710570.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710571.ts' for writing
+frame=10873 fps=1358 q=-1.0 size=N/A time=00:06:45.38 bitrate=N/A speed=50.6x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710572.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710573.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710574.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710575.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710576.ts' for writing
+frame=11667 fps=1371 q=-1.0 size=N/A time=00:07:17.19 bitrate=N/A speed=51.4x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710577.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710578.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710579.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710580.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710581.ts' for writing
+frame=12457 fps=1383 q=-1.0 size=N/A time=00:07:48.68 bitrate=N/A speed=  52x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710582.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710583.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710584.ts' for writing
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710585.ts' for writing
+frame=13123 fps=1380 q=-1.0 size=N/A time=00:08:15.43 bitrate=N/A speed=52.1x    
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710586.ts' for writing
+
+
+[q] command received. Exiting.
+
+[hls @ 0x561aca4c2fc0] Opening '/config/data/transcodes/7f787e6bb474d915888aafd9fe48710587.ts' for writing
+frame=13158 fps=1380 q=-1.0 Lsize=N/A time=00:08:16.80 bitrate=N/A speed=52.1x    
+video:602724kB audio:16451kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

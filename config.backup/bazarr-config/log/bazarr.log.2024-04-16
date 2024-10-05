@@ -1,0 +1,32 @@
+2024-04-16 16:32:48|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+2024-04-16 16:32:48|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-04-16 16:32:48|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+2024-04-16 16:32:49|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+2024-04-16 16:32:49|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+2024-04-16 16:34:32|INFO    |root                            |BAZARR trying to connect to Sonarr SignalR feed...|
+2024-04-16 16:34:32|INFO    |root                            |BAZARR trying to connect to Radarr SignalR feed...|
+2024-04-16 16:34:32|INFO    |root                            |BAZARR is started and waiting for request on http://***.***.***.***:6767|
+2024-04-16 16:34:32|INFO    |root                            |BAZARR SignalR client for Radarr is connected and waiting for events.|
+2024-04-16 16:34:32|INFO    |root                            |BAZARR SignalR client for Sonarr is connected and waiting for events.|
+2024-04-16 16:44:56|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 16:44:56|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 16:57:26|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 16:57:26|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:04:56|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:04:56|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:15:41|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:15:45|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:19:57|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:19:57|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:25:57|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:25:58|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:30:27|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:30:28|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:34:28|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:34:28|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:41:58|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:41:58|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:49:28|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 17:49:28|INFO    |root                            |BAZARR All providers are throttled|
+2024-04-16 21:19:38|INFO    |root                            |BAZARR Finished searching for missing Movies Subtitles. Check History for more information.|
+2024-04-16 21:56:48|INFO    |root                            |BAZARR Finished searching for missing Series Subtitles. Check History for more information.|

@@ -2,7 +2,7 @@
 	auto_https off
 	log DEBUG
 }
-http://ludvi {
+http://ludvi-thinkcentre.local {
     handle / {
         respond * <<EOF
 <!DOCTYPE html>
@@ -28,28 +28,28 @@ EOF
         header Content-Type text/html
         }
     handle /sonarr* {
-        redir http://ludvi:8989
+        redir http://ludvi-thinkcentre.local:8989
     }
     handle /radarr* {
-        redir http://ludvi:7878
+        redir http://ludvi-thinkcentre.local:7878
     }
     handle /bazarr* {
-        redir http://ludvi:6767
+        redir http://ludvi-thinkcentre.local:6767
     }
     handle /prowlarr* {
-        redir http://ludvi:9696
+        redir http://ludvi-thinkcentre.local:9696
     }
     handle /jellyfin* {
-        redir http://ludvi:8096
+        redir http://ludvi-thinkcentre.local:8096
     }
     handle /jellyseerr* {
-        redir http://ludvi:5056
+        redir http://ludvi-thinkcentre.local:5056
     }
     handle /qbittorrent* {
-        redir http://ludvi:8080
+        redir http://ludvi-thinkcentre.local:8080
     }
     handle /sabnzbd* {
-        redir http://ludvi:8081
+        redir http://ludvi-thinkcentre.local:8081
     }
 }
 

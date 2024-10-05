@@ -1,0 +1,711 @@
+2024-04-18T21:00:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:00:00.072Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:00:00.072Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"02cc2368-1ace-4742-a50e-117e7f5ba4bb"}
+2024-04-18T21:00:00.077Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:00:00.079Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:00:00.130Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:00:00.135Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:00:00.142Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:00:00.143Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:00:00.143Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:00:00.419Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:00:04.421Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:00:04.619Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:00:04.639Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:00:04.641Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:00:04.642Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:00:04.643Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:00:04.658Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:00:04.661Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:00:04.668Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:00:04.730Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:00:08.735Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:01:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:01:00.051Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:02:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:02:00.067Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:03:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:03:00.044Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:04:00.060Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:04:00.067Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:05:00.060Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:05:00.066Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:05:00.066Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"dc1aa724-e1ab-4daa-96ac-d1bf0121b910"}
+2024-04-18T21:05:00.071Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:05:00.072Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:05:00.100Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:05:00.310Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:05:00.374Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:05:00.423Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:05:00.472Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:05:00.472Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:05:04.474Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:05:05.002Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:05:05.007Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:05:05.007Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:05:05.030Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:05:05.031Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:05:05.080Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:05:05.081Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:05:05.103Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:05:05.139Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:05:09.144Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:06:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:06:00.014Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:07:00.064Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:07:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:08:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:08:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:09:00.064Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:09:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:10:00.060Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:10:00.064Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:10:00.064Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"df505b04-04a3-4063-b644-29190c09f35e"}
+2024-04-18T21:10:00.067Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:10:00.070Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:10:00.098Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:10:00.128Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:10:00.128Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:10:00.129Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:10:00.129Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:10:00.360Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:10:04.364Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:10:04.469Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:10:04.480Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:10:04.481Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:10:04.481Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:10:04.487Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:10:04.490Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:10:04.503Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:10:04.505Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:10:04.577Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:10:08.581Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:11:00.056Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:11:00.061Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:11:45.637Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-04-18T21:12:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:12:00.025Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:13:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:13:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:14:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:14:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:15:00.050Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:15:00.053Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:15:00.054Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"3a2a2f7a-469c-4eb2-a994-f130df77a849"}
+2024-04-18T21:15:00.058Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:15:00.060Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:15:00.113Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:15:00.463Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:15:00.486Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:15:00.509Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:15:00.517Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:15:00.544Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:15:04.547Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:15:05.144Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:15:05.155Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:15:05.155Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:15:05.163Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:15:05.194Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:15:05.245Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:15:05.249Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:15:05.281Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:15:05.285Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:15:09.292Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:16:00.013Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:16:00.020Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:17:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:17:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:18:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:18:00.022Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:19:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:19:00.067Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:20:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:20:00.065Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:20:00.066Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"be22725d-a874-4b06-8291-da2f1df53c8a"}
+2024-04-18T21:20:00.068Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:20:00.070Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:20:00.102Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:20:00.107Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:20:00.117Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:20:00.117Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:20:00.125Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:20:00.614Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:20:04.617Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:20:04.793Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:20:04.811Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:20:04.814Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:20:04.818Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:20:04.820Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:20:04.824Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:20:04.844Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:20:04.846Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:20:04.915Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:20:08.920Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:21:00.054Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:21:00.059Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:22:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:22:00.044Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:23:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:23:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:24:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:24:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:25:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:25:00.065Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:25:00.065Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"1a58b7d3-4da7-4030-a8ba-3bd6d2a334d9"}
+2024-04-18T21:25:00.069Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:25:00.071Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:25:00.130Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:25:00.439Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:25:00.442Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:25:00.480Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:25:00.480Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:25:00.502Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:25:04.504Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:25:05.093Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:25:05.095Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:25:05.114Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:25:05.125Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:25:05.126Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:25:05.141Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:25:05.149Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:25:05.155Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:25:05.195Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:25:09.200Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:26:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:26:00.022Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:27:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:27:00.025Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:28:00.067Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:28:00.071Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:28:14.490Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-04-18T21:29:00.052Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:29:00.057Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:30:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:30:00.068Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:30:00.068Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"99aea161-722e-4de8-bf26-107d743ba3f0"}
+2024-04-18T21:30:00.070Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:30:00.073Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:30:00.112Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:30:00.120Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:30:00.131Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:30:00.131Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:30:00.132Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:30:00.561Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:30:04.565Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:30:04.674Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:30:04.682Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:30:04.682Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:30:04.687Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:30:04.687Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:30:04.688Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:30:04.693Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:30:04.693Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:30:04.781Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:30:08.786Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:31:00.056Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:31:00.061Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:32:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:32:00.067Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:33:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:33:00.042Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:34:00.064Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:34:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:35:00.036Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:35:00.041Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:35:00.041Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"333705ab-fcfe-40af-b832-653543fa5cc9"}
+2024-04-18T21:35:00.045Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:35:00.047Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:35:00.096Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:35:00.385Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:35:00.459Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:35:00.559Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:35:00.560Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:35:00.636Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:35:04.640Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:35:05.131Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:35:05.156Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:35:05.164Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:35:05.199Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:35:05.210Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:35:05.240Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:35:05.249Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:35:05.252Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:35:05.425Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:35:09.430Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:36:00.057Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:36:00.067Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:37:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:37:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:38:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:38:00.014Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:39:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:39:00.014Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:40:00.060Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:40:00.063Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:40:00.063Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"00363465-f632-4174-b7ee-a5fca8df6fb3"}
+2024-04-18T21:40:00.066Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:40:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:40:00.120Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:40:00.132Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:40:00.143Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:40:00.143Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:40:00.144Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:40:00.610Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:40:04.614Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:40:04.733Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:40:04.744Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:40:04.745Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:40:04.769Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:40:04.771Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:40:04.776Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:40:04.778Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:40:04.784Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:40:04.845Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:40:08.849Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:41:00.046Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:41:00.051Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:42:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:42:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:43:00.046Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:43:00.051Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:44:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:44:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:45:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:45:00.032Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:45:00.033Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"58b5a4e4-6865-4328-8dd4-51cfe1ede3fb"}
+2024-04-18T21:45:00.038Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:45:00.040Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:45:00.073Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:45:00.451Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:45:00.452Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:45:00.542Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:45:00.547Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:45:00.657Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:45:04.659Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:45:05.115Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:45:05.119Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:45:05.135Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:45:05.169Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:45:05.173Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:45:05.202Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:45:05.245Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:45:05.251Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:45:05.484Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:45:09.489Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:45:30.409Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-04-18T21:46:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:46:00.011Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:47:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:47:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:48:00.041Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:48:00.046Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:49:00.050Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:49:00.059Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:50:00.049Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:50:00.053Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:50:00.054Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"feb57021-cdd0-4711-9b3f-9051e5bafd8c"}
+2024-04-18T21:50:00.057Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:50:00.059Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:50:00.101Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:50:00.111Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:50:00.114Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:50:00.119Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:50:00.119Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:50:00.344Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:50:04.347Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:50:04.408Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:50:04.452Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:50:04.462Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:50:04.463Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:50:04.465Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:50:04.470Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:50:04.482Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:50:04.484Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:50:04.558Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:50:08.563Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:51:00.057Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:51:00.062Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:52:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:52:00.022Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:53:00.062Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:53:00.067Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:54:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:54:00.016Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:55:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:55:00.025Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T21:55:00.026Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"97aa1998-a3f3-488c-91e6-d3f03a98ee1f"}
+2024-04-18T21:55:00.030Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T21:55:00.031Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:55:00.083Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T21:55:00.323Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T21:55:00.324Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T21:55:00.363Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T21:55:00.364Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T21:55:00.454Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T21:55:04.457Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T21:55:04.766Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T21:55:04.782Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T21:55:04.787Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T21:55:04.788Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T21:55:04.893Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T21:55:04.907Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T21:55:04.926Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T21:55:04.958Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T21:55:04.990Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T21:55:08.992Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T21:56:00.056Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:56:00.062Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:57:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:57:00.039Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:58:00.005Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:58:00.011Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T21:59:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T21:59:00.032Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:00:00.059Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:00:00.063Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:00:00.064Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2494a81b-4907-4f51-a617-b4e8b4cd4f7a"}
+2024-04-18T22:00:00.068Z [info][Jobs]: Starting scheduled job: Download Sync Reset 
+2024-04-18T22:00:00.072Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:00:00.073Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:00:00.104Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:00:00.177Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:00:00.192Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:00:00.193Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:00:00.193Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:00:00.460Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:00:04.462Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:00:04.564Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:00:04.573Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:00:04.574Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:00:04.582Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:00:04.582Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:00:04.584Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:00:04.591Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:00:04.594Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:00:04.675Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:00:08.679Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:00:53.440Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-04-18T22:01:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:01:00.016Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:02:00.029Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:02:00.034Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:03:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:03:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:04:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:04:00.038Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:05:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:05:00.030Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:05:00.031Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"04aaa603-735c-4795-b135-0986d8341bd5"}
+2024-04-18T22:05:00.034Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:05:00.038Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:05:00.094Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:05:00.362Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:05:00.363Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:05:00.381Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:05:00.388Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:05:00.485Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:05:04.488Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:05:04.824Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:05:04.829Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:05:04.905Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:05:04.917Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:05:04.964Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:05:04.967Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:05:04.984Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:05:05.056Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:05:05.064Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:05:09.068Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:06:00.057Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:06:00.062Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:07:00.040Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:07:00.045Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:08:00.065Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:08:00.069Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:09:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:09:00.029Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:10:00.048Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:10:00.051Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:10:00.051Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"6d211bd1-e4e4-49ac-b202-eb02b4e92fb6"}
+2024-04-18T22:10:00.055Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:10:00.057Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:10:00.088Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:10:00.092Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:10:00.097Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:10:00.117Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:10:00.117Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:10:00.410Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:10:04.413Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:10:04.536Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:10:04.576Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:10:04.587Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:10:04.589Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:10:04.590Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:10:04.592Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:10:04.606Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:10:04.607Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:10:04.683Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:10:08.687Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:11:00.056Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:11:00.060Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:12:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:12:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:13:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:13:00.025Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:14:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:14:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:15:00.035Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:15:00.043Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:15:00.043Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"467e9185-7af8-4084-a4cf-898eae7aa1fe"}
+2024-04-18T22:15:00.049Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:15:00.051Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:15:00.102Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:15:00.505Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:15:00.507Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:15:00.594Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:15:00.595Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:15:00.661Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:15:04.664Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:15:05.091Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:15:05.094Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:15:05.226Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:15:05.253Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:15:05.254Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:15:05.289Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:15:05.297Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:15:05.335Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:15:05.337Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:15:09.340Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:16:00.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:16:00.042Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:17:00.063Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:17:00.068Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:23:33.777Z [info]: Commit Tag: $GIT_SHA 
+2024-04-18T22:23:34.120Z [info]: Starting Overseerr version 1.7.0 
+2024-04-18T22:23:35.089Z [info][Notifications]: Registered notification agents 
+2024-04-18T22:23:35.120Z [info][Jobs]: Scheduled jobs loaded 
+2024-04-18T22:23:35.275Z [info][Server]: Server ready on port 5055 
+2024-04-18T22:24:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:25:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:25:00.037Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:25:00.038Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"26e84c7f-c2fa-4b6e-90cb-d82f82173aeb"}
+2024-04-18T22:25:00.050Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:25:00.816Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:25:00.817Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:25:00.834Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:25:00.845Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:25:00.853Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:25:00.904Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:25:04.908Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:25:05.745Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:25:05.797Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:25:05.821Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:25:05.856Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:25:05.884Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:25:05.888Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:25:05.902Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:25:05.948Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:25:05.978Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:25:09.980Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:26:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:26:00.024Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:27:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:27:00.042Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: sonarr_server 
+2024-04-18T22:28:00.037Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:29:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:30:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:30:00.044Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:30:00.044Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"9fd221fb-326a-41c6-957e-04037e27264d"}
+2024-04-18T22:30:00.049Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:30:00.079Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:30:00.092Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:30:00.096Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:30:00.108Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:30:00.108Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:30:00.113Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:30:04.118Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:30:04.227Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:30:04.232Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:30:04.241Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:30:04.242Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:30:04.243Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:30:04.246Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:30:04.252Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:30:04.256Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:30:04.335Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:30:08.343Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:31:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:32:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:33:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:34:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:35:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:35:00.028Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:35:00.029Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"cd5afa9e-4e79-4998-badf-5a721ee9b768"}
+2024-04-18T22:35:00.032Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:36:00.034Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:37:00.031Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:37:04.734Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:37:06.158Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:37:07.459Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:37:07.614Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:37:07.661Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:37:07.671Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:37:11.676Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:37:12.011Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:37:12.024Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:37:12.028Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:37:12.070Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:37:12.073Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:37:12.089Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:37:12.089Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:37:12.138Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:37:12.152Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:37:16.156Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:38:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:39:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:40:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:40:00.035Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:40:00.035Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"8c082392-dbc2-457a-835f-81850c7c3e69"}
+2024-04-18T22:40:00.039Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:40:00.706Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:40:00.708Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:40:00.717Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:40:00.730Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:40:00.736Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:40:00.737Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:40:04.742Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:40:04.861Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:40:04.870Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:40:04.882Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:40:04.899Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:40:04.900Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:40:04.901Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:40:04.902Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:40:04.909Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:40:04.988Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:40:08.989Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:41:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:42:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:43:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:43:35.112Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2024-04-18T22:44:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:45:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:45:00.025Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:45:00.026Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"d977cce0-ced5-4286-87b6-c0e060357129"}
+2024-04-18T22:45:00.041Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:45:00.321Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:45:00.321Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:45:00.322Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:45:00.333Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:45:00.418Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:45:00.452Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:45:04.456Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:45:04.767Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:45:04.777Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:45:04.780Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:45:04.815Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:45:04.816Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:45:04.865Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:45:04.869Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:45:04.873Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:45:04.884Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:45:08.888Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:46:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:47:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:48:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:49:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:50:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:50:00.039Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:50:00.039Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"5cbd28f4-ef96-46f4-b8a3-d4875f3f04aa"}
+2024-04-18T22:50:00.042Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:50:00.073Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:50:00.093Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:50:00.098Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:50:00.105Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:50:00.106Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:50:00.106Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:50:04.111Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:50:04.239Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:50:04.246Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:50:04.253Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:50:04.254Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:50:04.254Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:50:04.255Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:50:04.265Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:50:04.269Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:50:04.335Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:50:08.337Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:51:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:52:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:53:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:54:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:55:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:55:00.036Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T22:55:00.037Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"bdad4669-b34a-466a-aab7-7e1ad8e154ef"}
+2024-04-18T22:55:00.051Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T22:55:00.312Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T22:55:00.362Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T22:55:00.418Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T22:55:00.419Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T22:55:00.464Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T22:55:00.465Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T22:55:04.470Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T22:55:04.831Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T22:55:04.843Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T22:55:04.848Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T22:55:04.853Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T22:55:04.861Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T22:55:04.861Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T22:55:05.002Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T22:55:05.009Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T22:55:05.077Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T22:55:09.083Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T22:56:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:57:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:58:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T22:59:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:00:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:00:00.032Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T23:00:00.032Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"2364ec36-2439-4b35-a88d-3b37a91ae4ba"}
+2024-04-18T23:00:00.037Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T23:00:00.082Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T23:00:00.089Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T23:00:00.108Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T23:00:00.109Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T23:00:00.109Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T23:00:00.110Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T23:00:04.115Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T23:00:04.257Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T23:00:04.258Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T23:00:04.259Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T23:00:04.261Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T23:00:04.266Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T23:00:04.269Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T23:00:04.273Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T23:00:04.278Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T23:00:04.341Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T23:00:08.346Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2024-04-18T23:01:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:02:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:03:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:04:00.032Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:05:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2024-04-18T23:05:00.034Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Sync 
+2024-04-18T23:05:00.034Z [info][Jellyfin Sync]: Jellyfin Sync Starting {"sessionId":"ec3cfc8f-c3a4-4b84-9a88-02b8c6dca96b"}
+2024-04-18T23:05:00.039Z [info][Jellyfin Sync]: Beginning to process recently added for library: Movies 
+2024-04-18T23:05:00.354Z [debug][Jellyfin Sync]: Title already exists and no new media types found The French Dispatch 
+2024-04-18T23:05:00.397Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Green Knight 
+2024-04-18T23:05:00.483Z [debug][Jellyfin Sync]: Title already exists and no new media types found Steve Jobs 
+2024-04-18T23:05:00.484Z [debug][Jellyfin Sync]: Title already exists and no new media types found BlackBerry 
+2024-04-18T23:05:00.501Z [debug][Jellyfin Sync]: Title already exists and no new media types found The Holdovers 
+2024-04-18T23:05:00.540Z [debug][Jellyfin Sync]: Title already exists and no new media types found Children of Men 
+2024-04-18T23:05:04.545Z [info][Jellyfin Sync]: Beginning to process recently added for library: Shows 
+2024-04-18T23:05:05.041Z [debug][Jellyfin Sync]: Updating existing title: The Completely Made-Up Adventures of Dick Turpin 
+2024-04-18T23:05:05.085Z [debug][Jellyfin Sync]: Updating existing title: Fallout 
+2024-04-18T23:05:05.090Z [debug][Jellyfin Sync]: Updating existing title: Tokyo Vice 
+2024-04-18T23:05:05.112Z [debug][Jellyfin Sync]: Updating existing title: Quiet on Set: The Dark Side of Kids TV 
+2024-04-18T23:05:05.121Z [debug][Jellyfin Sync]: Updating existing title: The Bear 
+2024-04-18T23:05:05.144Z [debug][Jellyfin Sync]: Updating existing title: Constellation 
+2024-04-18T23:05:05.166Z [debug][Jellyfin Sync]: Updating existing title: Resident Alien 
+2024-04-18T23:05:05.171Z [debug][Jellyfin Sync]: Updating existing title: Shōgun 
+2024-04-18T23:05:05.193Z [debug][Jellyfin Sync]: Updating existing title: Hell's Kitchen 
+2024-04-18T23:05:09.197Z [info][Jellyfin Sync]: Recently Added Scan Complete 

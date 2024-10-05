@@ -1,0 +1,31 @@
+
+# podman requires a user session to work
+# so can not work at boot without login without
+# https://serverfault.com/questions/846441/loginctl-enable-linger-disable-linger-but-reading-linger-status
+#
+# the following commands
+# loginctl enable-linger $USER
+# loginctl disable-linger $USER
+#
+# do the equivalent of
+
+#touch /var/lib/systemd/linger/$USER
+#rm /var/lib/systemd/linger/$USER
+
+
+
+[Unit]
+Description=Media Center Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ludvi/Projects/MediaCenter
+ExecStart=/home/ludvi/Projects/MediaCenter/run.sh
+ExecStop=/home/ludvi/Projects/MediaCenter/stop.sh
+User=ludvi
+Group=ludvi
+AmbientCapabilities=CAP_NET_BIND_SERVICE #allows binding 80 as ludvi (for caddy)
+
+[Install]
+WantedBy=multi-user.target

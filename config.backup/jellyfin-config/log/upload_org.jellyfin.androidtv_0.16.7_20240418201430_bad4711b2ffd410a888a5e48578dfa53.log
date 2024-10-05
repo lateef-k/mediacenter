@@ -1,0 +1,159 @@
+---
+client: Jellyfin for Android TV
+client_version: 0.16.7
+client_repository: https://github.com/jellyfin/jellyfin-androidtv
+type: crash_report
+format: markdown
+---
+### Logs
+
+***Stack Trace***: 
+```log
+java.lang.NullPointerException: Parameter specified as non-null is null: method androidx.activity.OnBackPressedDispatcher.addCallback, parameter onBackPressedCallback
+	at androidx.activity.OnBackPressedDispatcher.addCallback(Unknown Source:2)
+	at org.jellyfin.androidtv.ui.playback.CustomPlaybackOverlayFragment.onActivityCreated(CustomPlaybackOverlayFragment.java:346)
+	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3156)
+	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:619)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:275)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1934)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1839)
+	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1782)
+	at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:565)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6718)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+
+```  
+***Logcat***: 
+```log
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.os.MessageQueue.next(MessageQueue.java:326)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.os.Looper.loop(Looper.java:160)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at java.lang.reflect.Method.invoke(Native Method)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-17 22:02:46.311 E/AndroidRuntime(20145): FATAL EXCEPTION: main
+04-17 22:02:46.311 E/AndroidRuntime(20145): Process: org.jellyfin.androidtv, PID: 20145
+04-17 22:02:46.311 E/AndroidRuntime(20145): java.lang.RuntimeException: Unable to resume activity {org.jellyfin.androidtv/org.jellyfin.androidtv.ui.browsing.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean org.jellyfin.androidtv.ui.playback.PlaybackController.hasFragment()' on a null object reference
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3822)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3854)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:51)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:145)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1816)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.os.Looper.loop(Looper.java:193)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at java.lang.reflect.Method.invoke(Native Method)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-17 22:02:46.311 E/AndroidRuntime(20145): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean org.jellyfin.androidtv.ui.playback.PlaybackController.hasFragment()' on a null object reference
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at org.jellyfin.androidtv.ui.playback.CustomPlaybackOverlayFragment.onResume(CustomPlaybackOverlayFragment.java:730)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.Fragment.performResume(Fragment.java:3205)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentStateManager.resume(FragmentStateManager.java:646)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:296)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:114)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1455)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3034)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentManager.dispatchResume(FragmentManager.java:2966)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentController.dispatchResume(FragmentController.java:285)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentActivity.onResumeFragments(FragmentActivity.java:333)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at androidx.fragment.app.FragmentActivity.onPostResume(FragmentActivity.java:322)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.Activity.performResume(Activity.java:7325)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3814)
+04-17 22:02:46.311 E/AndroidRuntime(20145): 	... 11 more
+--------- beginning of main
+04-18 21:14:20.461 D/NavigationRepositoryImpl(24525): Navigating back
+04-18 21:14:20.523 D/CustomPlaybackOverlayFragment(24525): Stopping!
+04-18 21:14:20.524 D/CustomPlaybackOverlayFragment(24525): this fragment belongs to the current session, ending it
+04-18 21:14:20.526 D/PlaybackController(24525): stop called at 2478244
+04-18 21:14:20.529 I/ReportingHelper(24525): ReportingHelper.reportStopped called for fce60f30-ed04-8a50-3b30-c01d14747d63 at position 24782440000
+04-18 21:14:20.537 I/jellyfin-apiclient(24525): ReportPlaybackStopped: Item fce60f30-ed04-8a50-3b30-c01d14747d63, Ticks: 24782440000
+04-18 21:14:20.538 D/jellyfin-apiclient(24525): Adding request to queue: http://192.168.8.69:8096/Sessions/Playing/Stopped
+04-18 21:14:20.560 E/NdkMediaCodec(24525): sf error code: -38
+04-18 21:14:20.563 W/VLC     (24525): [cd1d1eb0/2e79] libvlc decoder: AMediaCodec.dequeueOutputBuffer failed
+04-18 21:14:20.742 D/SurfaceUtils(24525): disconnecting from surface 0xcdc1c808, reason disconnectFromSurface
+04-18 21:14:20.839 D/AudioTrack(24525): stop() called with 0 frames delivered
+04-18 21:14:20.964 I/ExoPlayerImpl(24525): Release 6e9b4f9 [AndroidXMedia3/1.3.0] [gangnam, AQUOS-TVX19B, SHARP, 28] [media3.common, media3.session, media3.exoplayer, media3.decoder, media3.ui]
+04-18 21:14:21.114 I/ExoPlayerImpl(24525): Init be4b4c [AndroidXMedia3/1.3.0] [gangnam, AQUOS-TVX19B, SHARP, 28]
+04-18 21:14:21.141 I/DefaultRenderersFactory(24525): Loaded FfmpegAudioRenderer.
+04-18 21:14:21.167 D/AndroidRuntime(24525): Shutting down VM
+04-18 21:14:21.169 E/AndroidRuntime(24525): FATAL EXCEPTION: main
+04-18 21:14:21.169 E/AndroidRuntime(24525): Process: org.jellyfin.androidtv, PID: 24525
+04-18 21:14:21.169 E/AndroidRuntime(24525): java.lang.NullPointerException: Parameter specified as non-null is null: method androidx.activity.OnBackPressedDispatcher.addCallback, parameter onBackPressedCallback
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.activity.OnBackPressedDispatcher.addCallback(Unknown Source:2)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at org.jellyfin.androidtv.ui.playback.CustomPlaybackOverlayFragment.onActivityCreated(CustomPlaybackOverlayFragment.java:346)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3156)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:619)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:275)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1934)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1839)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1782)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:565)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at android.os.Handler.handleCallback(Handler.java:873)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at android.os.Looper.loop(Looper.java:193)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at java.lang.reflect.Method.invoke(Native Method)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-18 21:14:21.169 E/AndroidRuntime(24525): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-18 21:14:21.173 E/ACRA    (24525): ACRA caught a NullPointerException for org.jellyfin.androidtv
+04-18 21:14:21.173 E/ACRA    (24525): java.lang.NullPointerException: Parameter specified as non-null is null: method androidx.activity.OnBackPressedDispatcher.addCallback, parameter onBackPressedCallback
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.activity.OnBackPressedDispatcher.addCallback(Unknown Source:2)
+04-18 21:14:21.173 E/ACRA    (24525): 	at org.jellyfin.androidtv.ui.playback.CustomPlaybackOverlayFragment.onActivityCreated(CustomPlaybackOverlayFragment.java:346)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3156)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:619)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:275)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1934)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1839)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1782)
+04-18 21:14:21.173 E/ACRA    (24525): 	at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:565)
+04-18 21:14:21.173 E/ACRA    (24525): 	at android.os.Handler.handleCallback(Handler.java:873)
+04-18 21:14:21.173 E/ACRA    (24525): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-18 21:14:21.173 E/ACRA    (24525): 	at android.os.Looper.loop(Looper.java:193)
+04-18 21:14:21.173 E/ACRA    (24525): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-18 21:14:21.173 E/ACRA    (24525): 	at java.lang.reflect.Method.invoke(Native Method)
+04-18 21:14:21.173 E/ACRA    (24525): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-18 21:14:21.173 E/ACRA    (24525): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-18 21:14:21.173 D/ACRA    (24525): Building report
+04-18 21:14:21.188 D/ACRA    (24525): Starting collectors with priority FIRST
+04-18 21:14:21.193 D/ACRA    (24525): Calling collector org.acra.collector.LogCatCollector
+04-18 21:14:21.193 D/ACRA    (24525): Calling collector org.acra.collector.DropBoxCollector
+04-18 21:14:21.193 D/ACRA    (24525): Calling collector org.acra.collector.StacktraceCollector
+04-18 21:14:21.194 D/ACRA    (24525): Collector org.acra.collector.DropBoxCollector completed
+04-18 21:14:21.207 D/ACRA    (24525): Collector org.acra.collector.StacktraceCollector completed
+04-18 21:14:21.211 D/ACRA    (24525): Retrieving logcat output (buffer:default)...
+
+```  
+
+### App information
+
+***App version***: `0.16.7` (`160799`)  
+***Package name***: `org.jellyfin.androidtv`  
+***Build***: 
+```json
+{"BOARD":"gangnam","BOOTLOADER":"123456789","BRAND":"SHARP","CPU_ABI":"armeabi-v7a","CPU_ABI2":"armeabi","DEVICE":"gangnam","DISPLAY":"PTM5.200218.931","FINGERPRINT":"SHARP\/tclilux\/gangnam:9\/PTM5.200218.931\/8830006:user\/release-keys","HARDWARE":"m7322","HOST":"abfarm-64-central-00241","ID":"PTM5.200218.931","IS_DEBUGGABLE":false,"IS_EMULATOR":false,"MANUFACTURER":"SHARP","MODEL":"AQUOS-TVX19B","PERMISSIONS_REVIEW_REQUIRED":false,"PRODUCT":"tclilux","RADIO":"unknown","SUPPORTED_32_BIT_ABIS":["armeabi-v7a","armeabi"],"SUPPORTED_64_BIT_ABIS":[],"SUPPORTED_ABIS":["armeabi-v7a","armeabi"],"TAGS":"release-keys","TIME":1657810952000,"TYPE":"user","UNKNOWN":"unknown","USER":"android-build","VERSION":{"ACTIVE_CODENAMES":[],"BASE_OS":"","CODENAME":"REL","FIRST_SDK_INT":28,"INCREMENTAL":"8830006","PREVIEW_SDK_INT":0,"RELEASE":"9","RESOURCES_SDK_INT":28,"SDK":"28","SDK_INT":28,"SECURITY_PATCH":"2022-05-05"}}
+```  
+***Build config***: 
+```json
+{"APPLICATION_ID":"org.jellyfin.androidtv","BUILD_TYPE":"release","DEBUG":false,"DEVELOPMENT":false,"VERSION_CODE":160799,"VERSION_NAME":"0.16.7"}
+```  
+
+### Device information
+
+***Android version***: `9`  
+***Device brand***: `SHARP`  
+***Device product***: `tclilux`  
+***Device model***: `AQUOS-TVX19B`  
+
+### Crash information
+
+***Start time***: `2024-04-17T22:09:26.303+01:00`  
+***Crash time***: `2024-04-18T21:14:21.337+01:00`  
+

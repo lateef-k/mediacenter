@@ -1,0 +1,208 @@
+---
+client: Jellyfin for Android TV
+client_version: 0.16.7
+client_repository: https://github.com/jellyfin/jellyfin-androidtv
+type: crash_report
+format: markdown
+---
+### Logs
+
+***Stack Trace***: 
+```log
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context org.jellyfin.androidtv.ui.playback.CustomPlaybackOverlayFragment.getContext()' on a null object reference
+	at org.jellyfin.androidtv.ui.playback.PlaybackController.buildVLCOptions(PlaybackController.java:591)
+	at org.jellyfin.androidtv.ui.playback.PlaybackController.play(PlaybackController.java:540)
+	at org.jellyfin.androidtv.ui.playback.PlaybackController.play(PlaybackController.java:435)
+	at org.jellyfin.androidtv.ui.playback.overlay.VideoPlayerAdapter.play(VideoPlayerAdapter.java:29)
+	at org.jellyfin.androidtv.ui.playback.overlay.action.PlayPauseAction.onActionClicked(PlayPauseAction.kt:12)
+	at org.jellyfin.androidtv.ui.playback.overlay.CustomPlaybackTransportControlGlue.onActionClicked(CustomPlaybackTransportControlGlue.java:292)
+	at org.jellyfin.androidtv.ui.playback.overlay.CustomPlaybackTransportControlGlue$2.onProgressBarClicked(CustomPlaybackTransportControlGlue.java:165)
+	at androidx.leanback.widget.PlaybackTransportRowPresenter$ViewHolder$3.onClick(PlaybackTransportRowPresenter.java:275)
+	at android.view.View.performClick(View.java:6597)
+	at android.view.View.performClickInternal(View.java:6574)
+	at android.view.View.onKeyUp(View.java:13216)
+	at android.view.KeyEvent.dispatch(KeyEvent.java:2734)
+	at android.view.View.dispatchKeyEvent(View.java:12450)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at androidx.leanback.widget.PlaybackTransportRowView.dispatchKeyEvent(PlaybackTransportRowView.java:71)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at androidx.leanback.widget.BaseGridView.dispatchKeyEvent(BaseGridView.java:1081)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+	at com.android.internal.policy.DecorView.superDispatchKeyEvent(DecorView.java:428)
+	at com.android.internal.policy.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1820)
+	at android.app.Activity.dispatchKeyEvent(Activity.java:3361)
+	at androidx.core.app.ComponentActivity.superDispatchKeyEvent(ComponentActivity.java:120)
+	at androidx.core.view.KeyEventDispatcher.dispatchKeyEvent(KeyEventDispatcher.java:85)
+	at androidx.core.app.ComponentActivity.dispatchKeyEvent(ComponentActivity.java:138)
+	at org.jellyfin.androidtv.ui.browsing.MainActivity.dispatchKeyEvent(MainActivity.kt:208)
+	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:342)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:5042)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4910)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4590)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4458)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4647)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4458)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4623)
+	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4784)
+	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2571)
+	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:2081)
+	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:2072)
+	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2548)
+	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+	at android.os.MessageQueue.nativePollOnce(Native Method)
+	at android.os.MessageQueue.next(MessageQueue.java:326)
+	at android.os.Looper.loop(Looper.java:160)
+	at android.app.ActivityThread.main(ActivityThread.java:6718)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+
+```  
+***Logcat***: 
+```log
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4590)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4458)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4647)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4458)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4623)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4784)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2571)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:2081)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:2072)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2548)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.os.MessageQueue.next(MessageQueue.java:326)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.os.Looper.loop(Looper.java:160)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at java.lang.reflect.Method.invoke(Native Method)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-16 22:07:09.077 E/AndroidRuntime(26591): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-16 22:07:09.082 E/ACRA    (26591): ACRA caught a NullPointerException for org.jellyfin.androidtv
+04-16 22:07:09.082 E/ACRA    (26591): java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context org.jellyfin.androidtv.ui.playback.CustomPlaybackOverlayFragment.getContext()' on a null object reference
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.PlaybackController.buildVLCOptions(PlaybackController.java:591)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.PlaybackController.play(PlaybackController.java:540)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.PlaybackController.play(PlaybackController.java:435)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.overlay.VideoPlayerAdapter.play(VideoPlayerAdapter.java:29)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.overlay.action.PlayPauseAction.onActionClicked(PlayPauseAction.kt:12)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.overlay.CustomPlaybackTransportControlGlue.onActionClicked(CustomPlaybackTransportControlGlue.java:292)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.playback.overlay.CustomPlaybackTransportControlGlue$2.onProgressBarClicked(CustomPlaybackTransportControlGlue.java:165)
+04-16 22:07:09.082 E/ACRA    (26591): 	at androidx.leanback.widget.PlaybackTransportRowPresenter$ViewHolder$3.onClick(PlaybackTransportRowPresenter.java:275)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.View.performClick(View.java:6597)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.View.performClickInternal(View.java:6574)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.View.onKeyUp(View.java:13216)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2734)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.View.dispatchKeyEvent(View.java:12450)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at androidx.leanback.widget.PlaybackTransportRowView.dispatchKeyEvent(PlaybackTransportRowView.java:71)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at androidx.leanback.widget.BaseGridView.dispatchKeyEvent(BaseGridView.java:1081)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1896)
+04-16 22:07:09.082 E/ACRA    (26591): 	at com.android.internal.policy.DecorView.superDispatchKeyEvent(DecorView.java:428)
+04-16 22:07:09.082 E/ACRA    (26591): 	at com.android.internal.policy.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1820)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.app.Activity.dispatchKeyEvent(Activity.java:3361)
+04-16 22:07:09.082 E/ACRA    (26591): 	at androidx.core.app.ComponentActivity.superDispatchKeyEvent(ComponentActivity.java:120)
+04-16 22:07:09.082 E/ACRA    (26591): 	at androidx.core.view.KeyEventDispatcher.dispatchKeyEvent(KeyEventDispatcher.java:85)
+04-16 22:07:09.082 E/ACRA    (26591): 	at androidx.core.app.ComponentActivity.dispatchKeyEvent(ComponentActivity.java:138)
+04-16 22:07:09.082 E/ACRA    (26591): 	at org.jellyfin.androidtv.ui.browsing.MainActivity.dispatchKeyEvent(MainActivity.kt:208)
+04-16 22:07:09.082 E/ACRA    (26591): 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:342)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:5042)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4910)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4590)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4458)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4647)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4458)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4431)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4484)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4450)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4623)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4784)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2571)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:2081)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:2072)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2548)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.os.MessageQueue.next(MessageQueue.java:326)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.os.Looper.loop(Looper.java:160)
+04-16 22:07:09.082 E/ACRA    (26591): 	at android.app.ActivityThread.main(ActivityThread.java:6718)
+04-16 22:07:09.082 E/ACRA    (26591): 	at java.lang.reflect.Method.invoke(Native Method)
+04-16 22:07:09.082 E/ACRA    (26591): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+04-16 22:07:09.082 E/ACRA    (26591): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+04-16 22:07:09.082 D/ACRA    (26591): Building report
+04-16 22:07:09.097 D/ACRA    (26591): Starting collectors with priority FIRST
+04-16 22:07:09.100 D/ACRA    (26591): Calling collector org.acra.collector.DropBoxCollector
+04-16 22:07:09.101 D/ACRA    (26591): Calling collector org.acra.collector.LogCatCollector
+04-16 22:07:09.101 D/ACRA    (26591): Calling collector org.acra.collector.StacktraceCollector
+04-16 22:07:09.101 D/ACRA    (26591): Collector org.acra.collector.DropBoxCollector completed
+04-16 22:07:09.103 D/ACRA    (26591): Collector org.acra.collector.StacktraceCollector completed
+04-16 22:07:09.114 D/ACRA    (26591): Retrieving logcat output (buffer:default)...
+
+```  
+
+### App information
+
+***App version***: `0.16.7` (`160799`)  
+***Package name***: `org.jellyfin.androidtv`  
+***Build***: 
+```json
+{"BOARD":"gangnam","BOOTLOADER":"123456789","BRAND":"SHARP","CPU_ABI":"armeabi-v7a","CPU_ABI2":"armeabi","DEVICE":"gangnam","DISPLAY":"PTM5.200218.931","FINGERPRINT":"SHARP\/tclilux\/gangnam:9\/PTM5.200218.931\/8830006:user\/release-keys","HARDWARE":"m7322","HOST":"abfarm-64-central-00241","ID":"PTM5.200218.931","IS_DEBUGGABLE":false,"IS_EMULATOR":false,"MANUFACTURER":"SHARP","MODEL":"AQUOS-TVX19B","PERMISSIONS_REVIEW_REQUIRED":false,"PRODUCT":"tclilux","RADIO":"unknown","SUPPORTED_32_BIT_ABIS":["armeabi-v7a","armeabi"],"SUPPORTED_64_BIT_ABIS":[],"SUPPORTED_ABIS":["armeabi-v7a","armeabi"],"TAGS":"release-keys","TIME":1657810952000,"TYPE":"user","UNKNOWN":"unknown","USER":"android-build","VERSION":{"ACTIVE_CODENAMES":[],"BASE_OS":"","CODENAME":"REL","FIRST_SDK_INT":28,"INCREMENTAL":"8830006","PREVIEW_SDK_INT":0,"RELEASE":"9","RESOURCES_SDK_INT":28,"SDK":"28","SDK_INT":28,"SECURITY_PATCH":"2022-05-05"}}
+```  
+***Build config***: 
+```json
+{"APPLICATION_ID":"org.jellyfin.androidtv","BUILD_TYPE":"release","DEBUG":false,"DEVELOPMENT":false,"VERSION_CODE":160799,"VERSION_NAME":"0.16.7"}
+```  
+
+### Device information
+
+***Android version***: `9`  
+***Device brand***: `SHARP`  
+***Device product***: `tclilux`  
+***Device model***: `AQUOS-TVX19B`  
+
+### Crash information
+
+***Start time***: `2024-04-16T20:52:05.024+01:00`  
+***Crash time***: `2024-04-16T22:07:09.231+01:00`  
+
