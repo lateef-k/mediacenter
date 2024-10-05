@@ -1,0 +1,206 @@
+[2024-10-04 00:18:24.868 +03:00] [INF] [45] Emby.Server.Implementations.IO.LibraryMonitor: "Season 6" ("/data/tv/Better Call Saul/Season 6") will be refreshed.
+[2024-10-04 00:18:24.884 +03:00] [INF] [43] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E08.Point.And.Shoot.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 00:21:23.196 +03:00] [INF] [53] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "When Aliens Attack". Stopped at "1353342" ms
+[2024-10-04 00:21:26.529 +03:00] [INF] [33] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 00:21:26.603 +03:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 00:21:29.662 +03:00] [INF] [36] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2024-10-04 00:21:29.668 +03:00] [INF] [36] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2024-10-04 00:21:31.055 +03:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 00:21:31.369 +03:00] [INF] [32] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 00:22:08.783 +03:00] [INF] [36] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Fry & the Slurm Factory". Stopped at "34770" ms
+[2024-10-04 00:22:18.860 +03:00] [INF] [33] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 00:22:18.987 +03:00] [INF] [33] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 00:28:54.983 +03:00] [INF] [28] Emby.Server.Implementations.IO.LibraryMonitor: "Season 6" ("/data/tv/Better Call Saul/Season 6") will be refreshed.
+[2024-10-04 00:28:54.989 +03:00] [INF] [41] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E10.Nippy.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 00:43:55.028 +03:00] [INF] [45] Emby.Server.Implementations.IO.LibraryMonitor: "Season 6" ("/data/tv/Better Call Saul/Season 6") will be refreshed.
+[2024-10-04 00:43:55.049 +03:00] [INF] [45] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E13.Saul.Gone.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 00:45:37.239 +03:00] [INF] [46] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "A Head in the Polls". Stopped at "1336654" ms
+[2024-10-04 00:45:37.264 +03:00] [INF] [45] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 00:45:37.389 +03:00] [INF] [63] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 00:48:25.065 +03:00] [INF] [71] Emby.Server.Implementations.IO.LibraryMonitor: "Season 6" ("/data/tv/Better Call Saul/Season 6") will be refreshed.
+[2024-10-04 00:48:25.071 +03:00] [INF] [74] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E02.Carrot.And.Stick.1080p.REPACK.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 00:52:55.039 +03:00] [INF] [31] Emby.Server.Implementations.IO.LibraryMonitor: "Season 6" ("/data/tv/Better Call Saul/Season 6") will be refreshed.
+[2024-10-04 00:52:55.051 +03:00] [INF] [46] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E04.Hit.And.Run.1080p.AMZN.WEB-DL.DDP5.1.H.264-NTb.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 01:08:14.342 +03:00] [INF] [43] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Xmas Story". Stopped at "1353894" ms
+[2024-10-04 01:08:22.144 +03:00] [INF] [42] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 01:08:22.352 +03:00] [INF] [42] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 01:21:30.540 +03:00] [INF] [53] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2024-10-04 01:21:30.542 +03:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2024-10-04 01:24:25.359 +03:00] [INF] [71] Emby.Server.Implementations.IO.LibraryMonitor: "Hell's Kitchen" ("/data/tv/Hell's Kitchen (US)") will be refreshed.
+[2024-10-04 01:24:25.412 +03:00] [INF] [21] MediaBrowser.Providers.TV.SeriesMetadataService: Creating Season "Season Unknown" entry for "Hell's Kitchen"
+[2024-10-04 01:24:27.931 +03:00] [INF] [3] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Hell's Kitchen (US)/Season 23/Hells.Kitchen.US.S23E01.Hell.Heads.East.720p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 01:24:29.337 +03:00] [INF] [3] MediaBrowser.Providers.TV.SeriesMetadataService: Removing virtual season null in series "Hell's Kitchen"
+[2024-10-04 01:24:29.339 +03:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Season", Name: "Season Unknown", Path: "", Id: 95562893-788b-4e0a-b568-7def8a235926
+[2024-10-04 01:30:57.281 +03:00] [INF] [44] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Why Must I Be a Crustacean in Love?". Stopped at "1351892" ms
+[2024-10-04 01:31:04.661 +03:00] [INF] [28] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 01:31:04.896 +03:00] [INF] [28] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 01:53:39.197 +03:00] [INF] [59] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Put Your Head on My Shoulders". Stopped at "1351711" ms
+[2024-10-04 01:53:46.589 +03:00] [INF] [46] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 01:53:46.786 +03:00] [INF] [46] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 02:00:00.052 +03:00] [INF] [49] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 02:00:01.001 +03:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-10-05 02:00:00.000 +03:00, which is 23:59:58.9987622 from now.
+[2024-10-04 02:16:24.184 +03:00] [INF] [28] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Lesser of Two Evils". Stopped at "1354714" ms
+[2024-10-04 02:16:31.582 +03:00] [INF] [36] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 02:16:31.774 +03:00] [INF] [37] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 02:39:08.148 +03:00] [INF] [3] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Raging Bender". Stopped at "1353727" ms
+[2024-10-04 02:39:15.545 +03:00] [INF] [23] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 02:39:15.745 +03:00] [INF] [3] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 03:00:00.034 +03:00] [INF] [27] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 03:00:01.004 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-10-05 03:00:00.000 +03:00, which is 23:59:58.9960188 from now.
+[2024-10-04 03:01:50.883 +03:00] [INF] [55] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "A Bicyclops Built For Two". Stopped at "1352508" ms
+[2024-10-04 03:01:58.689 +03:00] [INF] [50] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 03:01:58.891 +03:00] [INF] [50] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 03:24:35.461 +03:00] [INF] [11] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "How Hermes Requisitioned His Groove Back". Stopped at "1353509" ms
+[2024-10-04 03:24:43.054 +03:00] [INF] [59] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 03:24:43.260 +03:00] [INF] [30] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 03:47:18.606 +03:00] [INF] [60] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "A Clone of My Own". Stopped at "1352217" ms
+[2024-10-04 03:47:26.192 +03:00] [INF] [55] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 03:47:26.408 +03:00] [INF] [57] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 04:10:01.749 +03:00] [INF] [48] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "The Deep South". Stopped at "1352226" ms
+[2024-10-04 04:10:09.133 +03:00] [INF] [46] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 04:10:09.350 +03:00] [INF] [56] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 04:32:46.329 +03:00] [INF] [33] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Bender Gets Made". Stopped at "1353887" ms
+[2024-10-04 04:32:53.916 +03:00] [INF] [61] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 04:32:54.017 +03:00] [INF] [61] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 04:55:27.633 +03:00] [INF] [34] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "The Problem with Popplers". Stopped at "1351016" ms
+[2024-10-04 04:55:35.416 +03:00] [INF] [34] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 04:55:35.638 +03:00] [INF] [34] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 05:10:06.455 +03:00] [INF] [63] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Mother's Day". Stopped at "868187" ms
+[2024-10-04 05:10:57.140 +03:00] [INF] [51] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 05:11:09.142 +03:00] [INF] [63] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 05:26:12.035 +03:00] [WRN] [65] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 05:26:12.040 +03:00] [INF] [65] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 05:42:18.096 +03:00] [INF] [15] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 05:45:06.110 +03:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 05:45:18.111 +03:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 05:45:30.108 +03:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 06:01:09.185 +03:00] [WRN] [20] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 06:01:09.191 +03:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 06:12:41.425 +03:00] [INF] [37] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 06:13:29.438 +03:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 06:13:41.439 +03:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 06:13:53.436 +03:00] [INF] [59] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 06:29:20.834 +03:00] [WRN] [79] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 06:29:20.838 +03:00] [INF] [79] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 06:42:48.371 +03:00] [INF] [67] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 06:43:36.384 +03:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 06:43:48.385 +03:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 06:44:00.385 +03:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 06:59:29.216 +03:00] [WRN] [67] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 06:59:29.221 +03:00] [INF] [67] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 07:00:28.978 +03:00] [INF] [30] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 07:01:16.989 +03:00] [INF] [11] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 07:01:28.989 +03:00] [INF] [11] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 07:01:40.989 +03:00] [INF] [30] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 07:17:34.661 +03:00] [WRN] [80] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 07:17:34.665 +03:00] [INF] [80] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 07:20:45.332 +03:00] [INF] [46] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 07:21:33.345 +03:00] [INF] [82] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 07:21:45.345 +03:00] [INF] [46] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 07:21:57.345 +03:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 07:37:20.450 +03:00] [WRN] [80] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 07:37:20.454 +03:00] [INF] [80] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 07:42:28.267 +03:00] [INF] [45] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 07:43:16.281 +03:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 07:43:28.281 +03:00] [INF] [71] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 07:43:40.281 +03:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 07:59:19.362 +03:00] [WRN] [22] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 07:59:19.367 +03:00] [INF] [22] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 08:27:18.303 +03:00] [INF] [60] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 08:29:06.313 +03:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 08:29:18.314 +03:00] [INF] [54] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 08:29:30.313 +03:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 08:45:01.633 +03:00] [WRN] [49] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 08:45:01.640 +03:00] [INF] [49] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 08:45:48.314 +03:00] [INF] [77] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 08:48:36.324 +03:00] [INF] [66] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 08:48:48.325 +03:00] [INF] [80] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 08:49:00.324 +03:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 08:52:29.136 +03:00] [INF] [67] Emby.Server.Implementations.IO.LibraryMonitor: "Season 23" ("/data/tv/Hell's Kitchen (US)/Season 23") will be refreshed.
+[2024-10-04 08:52:29.143 +03:00] [INF] [83] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Hell's Kitchen (US)/Season 23/Hells.Kitchen.US.S23E02.The.Flame.Game.720p.AMZN.WEB-DL.DDP5.1.H.264-FLUX.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-04 09:04:31.041 +03:00] [WRN] [18] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 09:04:31.044 +03:00] [INF] [18] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 09:12:32.298 +03:00] [INF] [65] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 11:02:56.313 +03:00] [INF] [47] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 11:03:08.314 +03:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 11:03:20.314 +03:00] [INF] [18] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 11:04:42.621 +03:00] [WRN] [73] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 11:04:42.627 +03:00] [INF] [73] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 11:07:18.676 +03:00] [INF] [79] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 11:07:34.410 +03:00] [INF] [23] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 11:07:34.563 +03:00] [INF] [23] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 11:11:17.161 +03:00] [INF] [37] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Wine and Roses". Stopped at "205649" ms
+[2024-10-04 11:17:22.830 +03:00] [WRN] [71] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 11:17:22.834 +03:00] [INF] [71] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 11:17:29.388 +03:00] [INF] [42] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 11:17:47.004 +03:00] [INF] [42] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 11:17:47.217 +03:00] [INF] [42] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 11:50:34.826 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 11:50:34.872 +03:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 11:50:34.894 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 11:50:34.925 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 11:50:35.070 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2024-10-04 11:50:35.112 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2024-10-04 11:50:35.113 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2024-10-04 11:50:41.428 +03:00] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-10-04 11:50:41.428 +03:00] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tv"
+[2024-10-04 11:50:41.428 +03:00] [INF] [26] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-10-04 11:50:41.432 +03:00] [WRN] [26] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-10-04 11:50:41.437 +03:00] [WRN] [21] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-10-04 11:50:43.112 +03:00] [INF] [26] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 3 seconds
+[2024-10-04 11:50:44.559 +03:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 3 seconds
+[2024-10-04 11:50:44.582 +03:00] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-10-04 11:50:44.583 +03:00] [INF] [51] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tv"
+[2024-10-04 12:31:38.853 +03:00] [INF] [10] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Wine and Roses". Stopped at "1619102" ms
+[2024-10-04 13:02:17.397 +03:00] [INF] [46] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 13:02:29.397 +03:00] [INF] [40] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 13:02:41.397 +03:00] [INF] [59] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 14:16:09.280 +03:00] [WRN] [70] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 14:16:09.285 +03:00] [INF] [70] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 14:16:59.585 +03:00] [INF] [74] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 14:17:47.601 +03:00] [INF] [88] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 14:17:59.601 +03:00] [INF] [74] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 14:18:11.601 +03:00] [INF] [87] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 14:33:48.098 +03:00] [WRN] [43] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 14:33:48.102 +03:00] [INF] [43] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 14:42:13.050 +03:00] [INF] [76] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 14:43:37.060 +03:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 14:43:49.059 +03:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 14:59:40.480 +03:00] [WRN] [39] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 14:59:40.487 +03:00] [INF] [39] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 15:13:43.137 +03:00] [INF] [73] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 15:14:31.151 +03:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 15:14:43.151 +03:00] [INF] [73] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 15:14:55.151 +03:00] [INF] [84] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 15:31:02.593 +03:00] [WRN] [24] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 15:31:02.598 +03:00] [INF] [24] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 15:42:30.215 +03:00] [INF] [74] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 15:43:18.227 +03:00] [INF] [74] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 15:43:30.227 +03:00] [INF] [50] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 15:43:42.227 +03:00] [INF] [62] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 15:59:22.432 +03:00] [WRN] [50] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 15:59:22.434 +03:00] [INF] [50] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 16:17:04.828 +03:00] [INF] [55] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 16:17:52.841 +03:00] [INF] [55] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 16:18:04.841 +03:00] [INF] [10] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-10-04 16:18:16.841 +03:00] [INF] [35] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2024-10-04 17:48:58.633 +03:00] [WRN] [25] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 17:48:58.637 +03:00] [INF] [25] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 22:41:26.135 +03:00] [INF] [38] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" request
+[2024-10-04 22:52:12.579 +03:00] [INF] [75] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 22:52:12.737 +03:00] [INF] [43] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Wasp8951". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2024-10-04 23:14:00.604 +03:00] [INF] [62] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "Wasp8951" has succeeded.
+[2024-10-04 23:14:00.604 +03:00] [INF] [62] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "Wasp8951": 2/0
+[2024-10-04 23:14:00.604 +03:00] [INF] [62] Emby.Server.Implementations.Session.SessionManager: Logging out access token "21c76310eb65469ba66883018889c634"
+[2024-10-04 23:14:00.609 +03:00] [INF] [62] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 3b658eba-5288-485b-89cf-b2a7dca0b110
+[2024-10-04 23:15:19.910 +03:00] [INF] [46] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Android TV" "0.16.11" playing "Weird White Murderer". Stopped at "1291943" ms
+[2024-10-04 23:17:41.840 +03:00] [WRN] [76] Emby.Server.Implementations.HttpServer.WebSocketConnection: WS "10.89.0.16" error receiving data: "The remote party closed the WebSocket connection without completing the close handshake."
+[2024-10-04 23:17:41.848 +03:00] [INF] [76] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "10.89.0.16" closed
+[2024-10-04 23:50:41.431 +03:00] [INF] [20] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-10-04 23:50:41.431 +03:00] [INF] [20] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tv"
+[2024-10-04 23:50:41.432 +03:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-10-04 23:50:41.437 +03:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-10-04 23:50:41.440 +03:00] [WRN] [65] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-10-04 23:50:44.162 +03:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 2 seconds
+[2024-10-04 23:50:44.198 +03:00] [INF] [76] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-10-04 23:50:44.199 +03:00] [INF] [35] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tv"

@@ -1,0 +1,74 @@
+[00:00:00 DBG] Recyclarr Version: 6.0.2+Branch.tags-v6.0.2.Sha.5b163d9dc621f28624270e2543334d8ee8599d98
+[00:00:00 DBG] App Data Dir: /config
+[00:00:01 DBG] Config Templates Repo: Using Branch & Clone URL: master, https://github.com/recyclarr/config-templates.git
+[00:00:01 DBG] Trash Guides Repo: Using Branch & Clone URL: master, https://github.com/TRaSH-Guides/Guides.git
+[00:00:01 DBG] Config Templates Repo: Executing git command with args: ["status"]
+[00:00:01 DBG] Trash Guides Repo: Executing git command with args: ["status"]
+[00:00:01 DBG] Config Templates Repo: Using working directory: /config/repositories/config-templates
+[00:00:01 DBG] Trash Guides Repo: Using working directory: /config/repositories/trash-guides
+[00:00:01 DBG] Trash Guides Repo: Command Output: On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+[00:00:01 DBG] Config Templates Repo: Command Output: On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+[00:00:01 DBG] Trash Guides Repo: Executing git command with args: ["remote","set-url","origin","https://github.com/TRaSH-Guides/Guides.git"]
+[00:00:01 DBG] Config Templates Repo: Executing git command with args: ["remote","set-url","origin","https://github.com/recyclarr/config-templates.git"]
+[00:00:01 DBG] Trash Guides Repo: Using working directory: /config/repositories/trash-guides
+[00:00:01 DBG] Config Templates Repo: Using working directory: /config/repositories/config-templates
+[00:00:01 DBG] Config Templates Repo: Command Output: 
+[00:00:01 DBG] Trash Guides Repo: Command Output: 
+[00:00:01 DBG] Trash Guides Repo: Remote 'origin' set to https://github.com/TRaSH-Guides/Guides.git
+[00:00:01 DBG] Config Templates Repo: Remote 'origin' set to https://github.com/recyclarr/config-templates.git
+[00:00:01 DBG] Trash Guides Repo: Executing git command with args: ["checkout","-f","master"]
+[00:00:01 DBG] Config Templates Repo: Executing git command with args: ["checkout","-f","master"]
+[00:00:01 DBG] Trash Guides Repo: Using working directory: /config/repositories/trash-guides
+[00:00:01 DBG] Config Templates Repo: Using working directory: /config/repositories/config-templates
+[00:00:01 DBG] Config Templates Repo: Command Output: Your branch is up to date with 'origin/master'.
+[00:00:01 DBG] Trash Guides Repo: Command Output: Your branch is up to date with 'origin/master'.
+[00:00:01 DBG] Config Templates Repo: Executing git command with args: ["fetch","origin"]
+[00:00:01 DBG] Trash Guides Repo: Executing git command with args: ["fetch","origin"]
+[00:00:01 DBG] Config Templates Repo: Using working directory: /config/repositories/config-templates
+[00:00:01 DBG] Trash Guides Repo: Using working directory: /config/repositories/trash-guides
+[00:00:03 DBG] Trash Guides Repo: Command Output: 
+[00:00:03 DBG] Config Templates Repo: Command Output: 
+[00:00:03 DBG] Trash Guides Repo: Executing git command with args: ["reset","--hard","origin/master"]
+[00:00:03 DBG] Config Templates Repo: Executing git command with args: ["reset","--hard","origin/master"]
+[00:00:03 DBG] Trash Guides Repo: Using working directory: /config/repositories/trash-guides
+[00:00:03 DBG] Config Templates Repo: Using working directory: /config/repositories/config-templates
+[00:00:03 DBG] Trash Guides Repo: Command Output: HEAD is now at 95627f9f fix(guide): Radarr flowchart audio issue (#2062)
+[00:00:03 DBG] Config Templates Repo: Command Output: HEAD is now at ac9c6e1 ci(deps): Update tj-actions/changed-files action to v45
+[00:00:03 DBG] recyclarr.yml: Loading config file: /config/recyclarr.yml
+[00:00:04 DBG] Include radarr-quality-definition-movie.yml: Loading config file: /config/repositories/config-templates/radarr/includes/quality-definitions/radarr-quality-definition-movie.yml
+[00:00:04 DBG] Include radarr-quality-profile-hd-bluray-web.yml: Loading config file: /config/repositories/config-templates/radarr/includes/quality-profiles/radarr-quality-profile-hd-bluray-web.yml
+[00:00:04 DBG] Include radarr-custom-formats-hd-bluray-web.yml: Loading config file: /config/repositories/config-templates/radarr/includes/custom-formats/radarr-custom-formats-hd-bluray-web.yml
+[00:00:04 DBG] Include radarr-custom-formats-hd-bluray-web.yml: Exception while parsing config file
+(Line: 40, Col: 5, Idx: 1658) - (Line: 40, Col: 21, Idx: 1674): Property 'assign_scores_to' not found on type 'Recyclarr.Config.Parsing.CustomFormatConfigYaml'.
+[00:00:04 ERR] Include radarr-custom-formats-hd-bluray-web.yml: Exception at line 40: Property 'assign_scores_to' not found on type 'Recyclarr.Config.Parsing.CustomFormatConfigYaml'.
+[00:00:04 ERR] Include radarr-custom-formats-hd-bluray-web.yml: Due to previous exception, this config will be skipped
+[00:00:04 ERR] Non-recoverable Exception
+Recyclarr.Config.Parsing.PostProcessing.ConfigMerging.YamlIncludeException: Failed to parse include file: /config/repositories/config-templates/radarr/includes/custom-formats/radarr-custom-formats-hd-bluray-web.yml
+   at Recyclarr.Config.Parsing.PostProcessing.IncludePostProcessor.LoadYamlInclude[T](IYamlInclude includeType, SupportedServices serviceType) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/Parsing/PostProcessing/IncludePostProcessor.cs:line 85
+   at Recyclarr.Config.Parsing.PostProcessing.IncludePostProcessor.<>c__DisplayClass6_0`1.<ProcessIncludes>b__0(IYamlInclude x) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/Parsing/PostProcessing/IncludePostProcessor.cs:line 59
+   at System.Linq.Enumerable.SelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Aggregate[TSource,TAccumulate](IEnumerable`1 source, TAccumulate seed, Func`3 func)
+   at Recyclarr.Config.Parsing.PostProcessing.IncludePostProcessor.ProcessIncludes[T](IReadOnlyDictionary`2 configs, ServiceConfigMerger`1 merger, SupportedServices serviceType)
+   at Recyclarr.Config.Parsing.PostProcessing.IncludePostProcessor.Process(RootConfigYaml config) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/Parsing/PostProcessing/IncludePostProcessor.cs:line 29
+   at Recyclarr.Config.Parsing.ConfigurationLoader.<>c.<ProcessLoadedConfigs>b__9_0(RootConfigYaml current, IConfigPostProcessor processor) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/Parsing/ConfigurationLoader.cs:line 55
+   at System.Linq.Enumerable.Aggregate[TSource,TAccumulate](IEnumerable`1 source, TAccumulate seed, Func`3 func)
+   at Recyclarr.Config.Parsing.ConfigurationLoader.ProcessLoadedConfigs(RootConfigYaml config) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/Parsing/ConfigurationLoader.cs:line 55
+   at Recyclarr.Config.Parsing.ConfigurationLoader.Load(IFileInfo file) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/Parsing/ConfigurationLoader.cs:line 35
+   at Recyclarr.Config.ConfigurationRegistry.<LoadAndFilterConfigs>b__6_0(IFileInfo x) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/ConfigurationRegistry.cs:line 52
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToList()
+   at Recyclarr.Config.ConfigurationRegistry.LoadAndFilterConfigs(IEnumerable`1 configs, ConfigFilterCriteria filterCriteria) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/ConfigurationRegistry.cs:line 52
+   at Recyclarr.Config.ConfigurationRegistry.FindAndLoadConfigs(ConfigFilterCriteria filterCriteria) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Config/ConfigurationRegistry.cs:line 31
+   at Recyclarr.Cli.Processors.Sync.SyncProcessor.ProcessConfigs(ISyncSettings settings) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Cli/Processors/Sync/SyncProcessor.cs:line 43
+   at Recyclarr.Cli.Processors.Sync.SyncProcessor.ProcessConfigs(ISyncSettings settings) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Cli/Processors/Sync/SyncProcessor.cs:line 57
+   at Recyclarr.Cli.Console.Commands.SyncCommand.ExecuteAsync(CommandContext context, CliSettings settings) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Cli/Console/Commands/SyncCommand.cs:line 66
+   at Spectre.Console.Cli.CommandExecutor.Execute(IConfiguration configuration, IEnumerable`1 args) in /_/src/Spectre.Console.Cli/Internal/CommandExecutor.cs:line 85
+   at Spectre.Console.Cli.CommandApp.RunAsync(IEnumerable`1 args) in /_/src/Spectre.Console.Cli/CommandApp.cs:line 84
+   at Spectre.Console.Cli.CommandApp.Run(IEnumerable`1 args) in /_/src/Spectre.Console.Cli/CommandApp.cs:line 58
+   at Recyclarr.Cli.Program.Main(String[] args) in /home/runner/work/recyclarr/recyclarr/src/Recyclarr.Cli/Program.cs:line 52
+[00:00:04 DBG] Cleaning up logs using max files of 20

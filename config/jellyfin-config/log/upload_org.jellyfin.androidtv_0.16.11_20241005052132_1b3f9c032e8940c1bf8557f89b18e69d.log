@@ -1,0 +1,174 @@
+---
+client: Jellyfin for Android TV
+client_version: 0.16.11
+client_repository: https://github.com/jellyfin/jellyfin-androidtv
+type: crash_report
+format: markdown
+---
+### Logs
+
+***Stack Trace***: 
+```log
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.jellyfin.androidtv/org.jellyfin.androidtv.ui.browsing.MainActivity}: java.lang.NullPointerException
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException
+	at org.jellyfin.androidtv.data.querying.StdItemQuery.<init>(StdItemQuery.kt:23)
+	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.setupQueries(BrowseGridFragment.java:545)
+	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.onCreate(BrowseGridFragment.java:177)
+	at androidx.fragment.app.Fragment.performCreate(Fragment.java:3094)
+	at androidx.fragment.app.FragmentStateManager.create(FragmentStateManager.java:504)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:268)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:122)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1455)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3034)
+	at androidx.fragment.app.FragmentManager.dispatchCreate(FragmentManager.java:2941)
+	at androidx.fragment.app.FragmentController.dispatchCreate(FragmentController.java:252)
+	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:219)
+	at org.jellyfin.androidtv.ui.browsing.MainActivity.onCreate(MainActivity.kt:57)
+	at android.app.Activity.performCreate(Activity.java:8000)
+	at android.app.Activity.performCreate(Activity.java:7984)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	... 11 more
+
+```  
+***Logcat***: 
+```log
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3034)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at androidx.fragment.app.FragmentManager.dispatchCreate(FragmentManager.java:2941)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at androidx.fragment.app.FragmentController.dispatchCreate(FragmentController.java:252)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:219)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at org.jellyfin.androidtv.ui.browsing.MainActivity.onCreate(MainActivity.kt:57)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.Activity.performCreate(Activity.java:8000)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.Activity.performCreate(Activity.java:7984)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.os.Looper.loop(Looper.java:223)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at java.lang.reflect.Method.invoke(Native Method)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+10-05 06:21:24.035 E/DisplayPreferencesStore(12002): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+10-05 06:21:24.036 I/DisplayPreferencesStore(12002): Creating an empty DisplayPreferencesDto for next commit.
+10-05 06:21:24.039 D/BrowseGridFragment(12002): numCardsScreen <0>
+10-05 06:21:24.044 D/AndroidRuntime(12002): Shutting down VM
+--------- beginning of crash
+10-05 06:21:24.048 E/AndroidRuntime(12002): FATAL EXCEPTION: main
+10-05 06:21:24.048 E/AndroidRuntime(12002): Process: org.jellyfin.androidtv, PID: 12002
+10-05 06:21:24.048 E/AndroidRuntime(12002): java.lang.RuntimeException: Unable to start activity ComponentInfo{org.jellyfin.androidtv/org.jellyfin.androidtv.ui.browsing.MainActivity}: java.lang.NullPointerException
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.os.Looper.loop(Looper.java:223)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at java.lang.reflect.Method.invoke(Native Method)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+10-05 06:21:24.048 E/AndroidRuntime(12002): Caused by: java.lang.NullPointerException
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at org.jellyfin.androidtv.data.querying.StdItemQuery.<init>(StdItemQuery.kt:23)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.setupQueries(BrowseGridFragment.java:545)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.onCreate(BrowseGridFragment.java:177)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.Fragment.performCreate(Fragment.java:3094)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentStateManager.create(FragmentStateManager.java:504)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:268)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:122)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1455)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3034)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentManager.dispatchCreate(FragmentManager.java:2941)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentController.dispatchCreate(FragmentController.java:252)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:219)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at org.jellyfin.androidtv.ui.browsing.MainActivity.onCreate(MainActivity.kt:57)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.Activity.performCreate(Activity.java:8000)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.Activity.performCreate(Activity.java:7984)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+10-05 06:21:24.048 E/AndroidRuntime(12002): 	... 11 more
+10-05 06:21:24.050 E/ACRA    (12002): ACRA caught a RuntimeException for org.jellyfin.androidtv
+10-05 06:21:24.050 E/ACRA    (12002): java.lang.RuntimeException: Unable to start activity ComponentInfo{org.jellyfin.androidtv/org.jellyfin.androidtv.ui.browsing.MainActivity}: java.lang.NullPointerException
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.os.Looper.loop(Looper.java:223)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+10-05 06:21:24.050 E/ACRA    (12002): 	at java.lang.reflect.Method.invoke(Native Method)
+10-05 06:21:24.050 E/ACRA    (12002): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+10-05 06:21:24.050 E/ACRA    (12002): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+10-05 06:21:24.050 E/ACRA    (12002): Caused by: java.lang.NullPointerException
+10-05 06:21:24.050 E/ACRA    (12002): 	at org.jellyfin.androidtv.data.querying.StdItemQuery.<init>(StdItemQuery.kt:23)
+10-05 06:21:24.050 E/ACRA    (12002): 	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.setupQueries(BrowseGridFragment.java:545)
+10-05 06:21:24.050 E/ACRA    (12002): 	at org.jellyfin.androidtv.ui.browsing.BrowseGridFragment.onCreate(BrowseGridFragment.java:177)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.Fragment.performCreate(Fragment.java:3094)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentStateManager.create(FragmentStateManager.java:504)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:268)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:122)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1455)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3034)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentManager.dispatchCreate(FragmentManager.java:2941)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentController.dispatchCreate(FragmentController.java:252)
+10-05 06:21:24.050 E/ACRA    (12002): 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:219)
+10-05 06:21:24.050 E/ACRA    (12002): 	at org.jellyfin.androidtv.ui.browsing.MainActivity.onCreate(MainActivity.kt:57)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.Activity.performCreate(Activity.java:8000)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.Activity.performCreate(Activity.java:7984)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+10-05 06:21:24.050 E/ACRA    (12002): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+10-05 06:21:24.050 E/ACRA    (12002): 	... 11 more
+10-05 06:21:24.050 D/ACRA    (12002): Building report
+10-05 06:21:24.056 D/ACRA    (12002): Starting collectors with priority FIRST
+10-05 06:21:24.060 D/ACRA    (12002): Calling collector org.acra.collector.StacktraceCollector
+10-05 06:21:24.061 D/ACRA    (12002): Calling collector org.acra.collector.DropBoxCollector
+10-05 06:21:24.061 D/ACRA    (12002): Collector org.acra.collector.DropBoxCollector completed
+10-05 06:21:24.061 D/ACRA    (12002): Calling collector org.acra.collector.LogCatCollector
+10-05 06:21:24.064 D/ACRA    (12002): Collector org.acra.collector.StacktraceCollector completed
+10-05 06:21:24.075 D/ACRA    (12002): Retrieving logcat output (buffer:default)...
+
+```  
+
+### App information
+
+***App version***: `0.16.11` (`161199`)  
+***Package name***: `org.jellyfin.androidtv`  
+***Build***: 
+```json
+{"BOARD":"gangnam","BOOTLOADER":"123456789","BRAND":"SHARP","CPU_ABI":"armeabi-v7a","CPU_ABI2":"armeabi","DEVICE":"gangnam","DISPLAY":"RTOB.231007.001","FINGERPRINT":"SHARP\/tclilux\/gangnam:11\/RTOB.231007.001\/10917584:user\/release-keys","HARDWARE":"m7322","HOST":"abfarm-2004-4085","ID":"RTOB.231007.001","IS_DEBUGGABLE":false,"IS_EMULATOR":false,"MANUFACTURER":"SHARP","MODEL":"AQUOS-TVX19B","PERMISSIONS_REVIEW_REQUIRED":true,"PRODUCT":"tclilux","RADIO":"unknown","SUPPORTED_32_BIT_ABIS":["armeabi-v7a","armeabi"],"SUPPORTED_64_BIT_ABIS":[],"SUPPORTED_ABIS":["armeabi-v7a","armeabi"],"TAGS":"release-keys","TIME":1696710657000,"TYPE":"user","UNKNOWN":"unknown","USER":"android-build","VERSION":{"ACTIVE_CODENAMES":[],"BASE_OS":"","CODENAME":"REL","INCREMENTAL":"10917584","PREVIEW_SDK_FINGERPRINT":"REL","PREVIEW_SDK_INT":0,"RELEASE":"11","RELEASE_OR_CODENAME":"11","SDK":"30","SDK_INT":30,"SECURITY_PATCH":"2023-09-01"}}
+```  
+***Build config***: 
+```json
+{"APPLICATION_ID":"org.jellyfin.androidtv","BUILD_TYPE":"release","DEBUG":false,"DEVELOPMENT":false,"VERSION_CODE":161199,"VERSION_NAME":"0.16.11"}
+```  
+
+### Device information
+
+***Android version***: `11`  
+***Device brand***: `SHARP`  
+***Device product***: `tclilux`  
+***Device model***: `AQUOS-TVX19B`  
+
+### Crash information
+
+***Start time***: `2024-10-05T06:21:23.438+01:00`  
+***Crash time***: `2024-10-05T06:21:24.218+01:00`  
+

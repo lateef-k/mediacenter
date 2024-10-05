@@ -1,0 +1,31 @@
+[2024-10-05 00:21:26.531 +03:00] [INF] [79] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 00:21:26.603 +03:00] [INF] [83] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 01:21:30.532 +03:00] [INF] [85] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2024-10-05 01:21:30.534 +03:00] [INF] [85] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2024-10-05 02:00:00.079 +03:00] [INF] [83] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 02:00:01.006 +03:00] [INF] [88] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-10-06 02:00:00.000 +03:00, which is 23:59:58.9939735 from now.
+[2024-10-05 03:00:00.026 +03:00] [INF] [72] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 03:00:01.004 +03:00] [INF] [72] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-10-06 03:00:00.000 +03:00, which is 23:59:58.9951158 from now.
+[2024-10-05 11:50:34.830 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 11:50:34.877 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 11:50:34.898 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 11:50:34.929 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 11:50:35.112 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2024-10-05 11:50:35.136 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2024-10-05 11:50:35.136 +03:00] [INF] [40] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2024-10-05 11:50:41.432 +03:00] [INF] [82] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2024-10-05 11:50:41.432 +03:00] [INF] [82] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tv"
+[2024-10-05 11:50:41.432 +03:00] [INF] [82] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-10-05 11:50:41.439 +03:00] [WRN] [82] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-10-05 11:50:41.456 +03:00] [WRN] [82] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2024-10-05 11:50:42.232 +03:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 2 seconds
+[2024-10-05 11:50:44.284 +03:00] [INF] [75] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 2 seconds
+[2024-10-05 11:50:44.306 +03:00] [INF] [30] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2024-10-05 11:50:44.307 +03:00] [INF] [62] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tv"
+[2024-10-05 13:45:21.322 +03:00] [INF] [78] Emby.Server.Implementations.IO.LibraryMonitor: "tv" ("/data/tv") will be refreshed.
+[2024-10-05 13:45:32.088 +03:00] [INF] [19] MediaBrowser.Providers.TV.SeriesMetadataService: Creating Season "Season Unknown" entry for "Silicon Valley"
+[2024-10-05 13:45:32.994 +03:00] [INF] [19] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Silicon Valley/Season 4/Silicon.Valley.S04E02.Terms.of.Service.REPACK.1080p.HBO.WEB-DL.DD5.1.H.264-monkee-Scrambled.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-10-05 13:45:34.757 +03:00] [INF] [81] MediaBrowser.Providers.TV.SeriesMetadataService: Removing virtual season null in series "Silicon Valley"
+[2024-10-05 13:45:34.757 +03:00] [INF] [81] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Season", Name: "Season Unknown", Path: "", Id: 69acaf12-22db-c915-d7d2-2f5f70356440
+[2024-10-05 13:50:08.561 +03:00] [INF] [51] Emby.Server.Implementations.IO.LibraryMonitor: "Season 4" ("/data/tv/Silicon Valley/Season 4") will be refreshed.
+[2024-10-05 13:50:09.992 +03:00] [INF] [34] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/data/tv/Silicon Valley/Season 4/Silicon.Valley.S04E04.Teambuilding.Exercise.1080p.AMZN.WEBRip.DD5.1.x264-NTb.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"

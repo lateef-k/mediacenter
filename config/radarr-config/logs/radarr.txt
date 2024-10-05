@@ -1,0 +1,52 @@
+2024-10-05 11:50:40.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:40.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:40.6|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 11:50:40.6|Info|DiskScanService|Scanning disk for The Idea of You
+2024-10-05 11:50:40.6|Info|DiskScanService|Completed scanning disk for The Idea of You
+2024-10-05 11:50:40.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2024-10-05 11:50:40.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:40.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:40.6|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 11:50:40.6|Info|DiskScanService|Scanning disk for Kingdom of Heaven
+2024-10-05 11:50:40.6|Info|DiskScanService|Completed scanning disk for Kingdom of Heaven
+2024-10-05 11:50:40.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2024-10-05 11:50:40.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:40.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:40.6|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 11:50:40.6|Info|RefreshMovieService|Updating info for The Lizzie McGuire Movie
+2024-10-05 11:50:41.0|Info|DiskScanService|Scanning disk for The Lizzie McGuire Movie
+2024-10-05 11:50:41.0|Info|DiskScanService|Completed scanning disk for The Lizzie McGuire Movie
+2024-10-05 11:50:41.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2024-10-05 11:50:41.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:41.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:41.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 11:50:41.0|Info|DiskScanService|Scanning disk for Steve Jobs
+2024-10-05 11:50:41.0|Info|DiskScanService|Completed scanning disk for Steve Jobs
+2024-10-05 11:50:41.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2024-10-05 11:50:41.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:41.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:41.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 11:50:41.0|Info|DiskScanService|Scanning disk for Waves
+2024-10-05 11:50:41.0|Info|DiskScanService|Completed scanning disk for Waves
+2024-10-05 11:50:41.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2024-10-05 11:50:41.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:41.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:41.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 11:50:41.1|Info|DiskScanService|Scanning disk for World War Z
+2024-10-05 11:50:41.1|Info|DiskScanService|Completed scanning disk for World War Z
+2024-10-05 11:50:41.1|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2024-10-05 11:50:41.1|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2024-10-05 11:50:41.1|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2024-10-05 11:50:41.1|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2024-10-05 12:01:38.7|Info|RssSyncService|Starting RSS Sync
+2024-10-05 12:01:40.3|Info|DownloadDecisionMaker|Processing 155 releases
+2024-10-05 12:01:40.6|Info|RssSyncService|RSS Sync Completed. Reports found: 155, Reports grabbed: 0
+2024-10-05 12:32:09.0|Info|RssSyncService|Starting RSS Sync
+2024-10-05 12:32:11.4|Info|DownloadDecisionMaker|Processing 156 releases
+2024-10-05 12:32:11.7|Info|RssSyncService|RSS Sync Completed. Reports found: 156, Reports grabbed: 0
+2024-10-05 13:02:39.2|Info|RssSyncService|Starting RSS Sync
+2024-10-05 13:02:40.4|Info|DownloadDecisionMaker|Processing 154 releases
+2024-10-05 13:02:40.7|Info|RssSyncService|RSS Sync Completed. Reports found: 154, Reports grabbed: 0
+2024-10-05 13:33:09.4|Info|RssSyncService|Starting RSS Sync
+2024-10-05 13:33:11.2|Info|DownloadDecisionMaker|Processing 158 releases
+2024-10-05 13:33:11.5|Info|RssSyncService|RSS Sync Completed. Reports found: 158, Reports grabbed: 0
